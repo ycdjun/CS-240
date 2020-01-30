@@ -1,0 +1,434 @@
+Script started on 2020-01-30 16:24:26-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+yjun1@g7-33:~/i240b/submit/lab1$ cd exercises/
+yjun1@g7-33:~/i240b/submit/lab1/exercises$ ls
+0-hello       2-separate-compilation  4-dependencies	   lab1.LOG
+1-monolithic  3-makefile	      5-auto-dependencies
+yjun1@g7-33:~/i240b/submit/lab1/exercises$ cd 0
+bash: cd: 0: No such file or directory
+yjun1@g7-33:~/i240b/submit/lab1/exercises$ cd 0`[K-hello/
+yjun1@g7-33:~/i240b/submit/lab1/exercises/0-hello$ make
+make: *** No targets specified and no makefile found.  Stop.
+yjun1@g7-33:~/i240b/submit/lab1/exercises/0-hello$ make hello
+g++     hello.cc   -o hello
+yjun1@g7-33:~/i240b/submit/lab1/exercises/0-hello$ ls -l
+total 24
+-rwxr-xr-x 1 yjun1 yjun1 17248 Jan 30 16:24 hello
+-rw-r----- 1 yjun1 yjun1    79 Jan 30 10:23 hello.cc
+yjun1@g7-33:~/i240b/submit/lab1/exercises/0-hello$ file hello
+hello: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=99af5e976454700966eadf73920a1f533966fdc8, not stripped
+yjun1@g7-33:~/i240b/submit/lab1/exercises/0-hello$ ./hello 
+hello world
+yjun1@g7-33:~/i240b/submit/lab1/exercises/0-hello$ make -p | less 
+make: *** No targets specified and no makefile found.  Stop.
+[?1049h[22;0;0t[?1h=# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Jan 30 16:25:13 2020
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = lightdm-xsession
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+:[K[K[?1l>[?1049l[23;0;0tyjun1@g7-33:~/i240b/submit/lab1/exercises/0-hello$ make -p | egrep 'cc|CXX'
+make: *** No targets specified and no makefile found.  Stop.
+COMPILE.cpp = $(COMPILE.cc)
+CC = cc
+LINK.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+KRB5CCNAME = FILE:/tmp/krb5cc_14384_BxtcU4
+YACC = yacc
+LINK.C = $(LINK.cc)
+LINK.cpp = $(LINK.cc)
+COMPILE.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+CXX = g++
+COMPILE.C = $(COMPILE.cc)
+SUFFIXES := .out .a .ln .o .c .cc .C .cpp .p .f .F .m .r .y .l .ym .yl .s .S .mod .sym .def .h .info .dvi .tex .texinfo .texi .txinfo .w .ch .web .sh .elc .el
+OBJC = cc
+%.cc:
+%: %.cc
+	$(LINK.cc) $^ $(LOADLIBES) $(LDLIBS) -o $@
+%.o: %.cc
+	$(COMPILE.cc) $(OUTPUT_OPTION) $<
+.cc:
+	$(LINK.cc) $^ $(LOADLIBES) $(LDLIBS) -o $@
+.cc.o:
+	$(COMPILE.cc) $(OUTPUT_OPTION) $<
+.SUFFIXES: .out .a .ln .o .c .cc .C .cpp .p .f .F .m .r .y .l .ym .yl .s .S .mod .sym .def .h .info .dvi .tex .texinfo .texi .txinfo .w .ch .web .sh .elc .el
+yjun1@g7-33:~/i240b/submit/lab1/exercises/0-hello$ cd ..
+yjun1@g7-33:~/i240b/submit/lab1/exercises$ cd `[K1-monolithic/
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ ls
+fns-compare  fns-compare.cc  fns-compare.cc~
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ mae[Kke fns-compare
+make: 'fns-compare' is up to date.
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ ./fns-compare 
+1 100000 1000
+10 1e+06 100000
+100 1e+07 1e+07
+1000 1e+08 1e+09
+10000 1e+09 1e+11
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ emacs fns-compare.c[Kcc
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ make
+make: *** No targets specified and no makefile found.  Stop.
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ make fns-compare
+g++     fns-compare.cc   -o fns-compare
+[01m[Kfns-compare.cc:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[Kfns-compare.cc:22:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+     fprintf(out, "%g %g\n", n, linear(n),[01;31m[K)[m[K;
+                                          [01;31m[K^[m[K
+make: *** [<builtin>: fns-compare] Error 1
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ make fns-compare[Kemacs fns-compare.cc
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ make fns-comparen[K
+g++     fns-compare.cc   -o fns-compare
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ g++ -g -Wall -std=c++17 fns-compare.cc -o fns-compare
+[01m[Kfns-compare.cc:11:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble quadratic(double)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[Kquadratic[m[K(double n)
+ [01;35m[K^~~~~~~~~[m[K
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ e[Kg++ -g -Wall -std=c++17 fns-compare.cc -o fns-compare[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pmake fns-compare
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+make: 'fns-compare' is up to date.
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ make fns-compareg++ -g -Wall -std=c++17 fns-compare.cc -o fns-compare[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pmake fns-compare
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs fns-compare.cc
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ m[Kemacs fns-compare.cc[4Pmake fns-compare
+g++     fns-compare.cc   -o fns-compare
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ make fns-compareemacs fns-compare.cc[4Pmake fns-compareg++ -g -Wall -std=c++17 fns-compare.cc -o fns-compare[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pmake fns-compare
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs fns-compare.cc[4Pmake fns-compareg++ -g -Wall -std=c++17 fns-compare.cc -o fns-compare[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pmake fns-compare
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs fns-compare.cc[4Pmake fns-compare[K./fns-compare 
+1 100000 1000
+10 1e+06 100000
+100 1e+07 1e+07
+1000 1e+08 1e+09
+10000 1e+09 1e+11
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ d [K[Kcd ..
+yjun1@g7-33:~/i240b/submit/lab1/exercises$ cd 2-separate-compilation/
+yjun1@g7-33:~/i240b/submit/lab1/exercises/2-separate-compilation$ g++ -g -Wall -std=c++17 -c fns-compare.cc 
+yjun1@g7-33:~/i240b/submit/lab1/exercises/2-separate-compilation$ g++ -g -Wall -std=c++17 -c linear.cc
+yjun1@g7-33:~/i240b/submit/lab1/exercises/2-separate-compilation$ g++ fns-compare.o linear.o -o fns-compare
+yjun1@g7-33:~/i240b/submit/lab1/exercises/2-separate-compilation$ ./fns-compare  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+         n    linear
+         1     10000
+        10    100000
+       100     1e+06
+      1000     1e+07
+     10000     1e+08
+    100000     1e+09
+yjun1@g7-33:~/i240b/submit/lab1/exercises/2-separate-compilation$ emacs [K[K[K[K[K[Kls
+fns-compare  fns-compare.cc  fns-compare.hh  fns-compare.o  linear.cc  linear.o
+yjun1@g7-33:~/i240b/submit/lab1/exercises/2-separate-compilation$ emacs linear.c c &
+[1] 1150210
+yjun1@g7-33:~/i240b/submit/lab1/exercises/2-separate-compilation$ toc[K[K[Ktouch quadrati c.cc
+yjun1@g7-33:~/i240b/submit/lab1/exercises/2-separate-compilation$ emacs [K[K[K[K[K[Kgei[K[K[Kgei[Kdit quadratic.cc &
+[2] 1150333
+yjun1@g7-33:~/i240b/submit/lab1/exercises/2-separate-compilation$ 
+(gedit:1150333): Gtk-[1;33mWARNING[0m **: [34m16:31:33.731[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+yjun1@g7-33:~/i240b/submit/lab1/exercises/2-separate-compilation$ cd ..
+yjun1@g7-33:~/i240b/submit/lab1/exercises$ cd 1-monolithic/
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ cd [K[K[Kls
+fns-compare  fns-compare.cc  fns-compare.cc~
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ cd [K[K[Kcd fns-compare.cc &[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgedit fns-compare.cc &
+[3] 1150453
+yjun1@g7-33:~/i240b/submit/lab1/exercises/1-monolithic$ cd ..
+[3]+  Done                    gedit fns-compare.cc  (wd: ~/i240b/submit/lab1/exercises/1-monolithic)
+(wd now: ~/i240b/submit/lab1/exercises)
+yjun1@g7-33:~/i240b/submit/lab1/exercises$ cd 2-separate-compilation/
+yjun1@g7-33:~/i240b/submit/lab1/exercises/2-separate-compilation$ ls
+fns-compare	fns-compare.hh	linear.cc  quadratic.cc
+fns-compare.cc	fns-compare.o	linear.o
+yjun1@g7-33:~/i240b/submit/lab1/exercises/2-separate-compilation$ cd [K[K[Kg++ -g -Wall -std=c++17 -c fns-compare.cc[K[K[K[K[K[K[K[K[K[K[K[K[K[Kquadratic.cc 
+yjun1@g7-33:~/i240b/submit/lab1/exercises/2-separate-compilation$ g++ fns-compare.o linear.o -o fns-compare[C[C fns-compareq fns-compareuadratic. fns-compare0 fns-compare[1P fns-compareo fns-compare[C fns-compare- fns-compareo fns-compare[C fns-compare[1Pfns-compare[1P fns-compare[1P fns-compare[1Pfns-compare[1P fns-compare[1P fns-compare[1P fns-compare[1P fns-compare[1P fns-compare[1P fns-compare[1P fns-compare[1P fns-compare[1P fns-compare[1P fns-compare[1P fns-compare[1Pfns-compare[1P fns-compare[1P fns-compareq fns-compareu fns-comparea fns-compared fns-comparer fns-comparea fns-comparet fns-comparei fns-compare[1P fns-compare[1P fns-compare[1P fns-compare[1P fns-comparer fns-comparea fns-comparet fns-comparei fns-comparec fns-compare. fns-compareo fns-compare[C fns-compare- fns-compareo fns-compare[C fns-compare[1Pfns-compare
+yjun1@g7-33:~/i240b/submit/lab1/exercises/2-separate-compilation$ ./fns-compare  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+         n    linear quadratic
+         1     10000     10000
+        10    100000     1e+06
+       100     1e+06     1e+08
+      1000     1e+07     1e+10
+     10000     1e+08     1e+12
+    100000     1e+09     1e+14
+yjun1@g7-33:~/i240b/submit/lab1/exercises/2-separate-compilation$ cd ..
+[2]+  Done                    gedit quadratic.cc  (wd: ~/i240b/submit/lab1/exercises/2-separate-compilation)
+(wd now: ~/i240b/submit/lab1/exercises)
+yjun1@g7-33:~/i240b/submit/lab1/exercises$ cd 3-makefile/
+[1]+  Done                    emacs linear.cc  (wd: ~/i240b/submit/lab1/exercises/2-separate-compilation)
+(wd now: ~/i240b/submit/lab1/exercises/3-makefile)
+yjun1@g7-33:~/i240b/submit/lab1/exercises/3-makefile$ gedit m[KMakefile &
+[1] 1150777
+yjun1@g7-33:~/i240b/submit/lab1/exercises/3-makefile$ make
+g++ -g -Wall -std=c++17   -c -o fns-compare.o fns-compare.cc
+g++ -g -Wall -std=c++17   -c -o constant.o constant.cc
+g++ -g -Wall -std=c++17   -c -o lg.o lg.cc
+g++ -g -Wall -std=c++17   -c -o linear.o linear.cc
+g++ -g -Wall -std=c++17   -c -o nlg.o nlg.cc
+g++ -g -Wall -std=c++17   -c -o quadratic.o quadratic.cc
+g++ -g -Wall -std=c++17   -c -o cubic.o cubic.cc
+g++ -g -Wall -std=c++17   -c -o exponential.o exponential.cc
+g++ -g -Wall -std=c++17   -c -o fact.o fact.cc
+g++ fns-compare.o constant.o lg.o linear.o nlg.o quadratic.o cubic.o exponential.o fact.o -o fns-compare
+yjun1@g7-33:~/i240b/submit/lab1/exercises/3-makefile$ ./fns-compare 
+    n constant     log2   linear     n lg    quadr    cubic     expn     fact
+    1    1e+07        0    1e+05        0    1e+03    1e+02       20        1
+   10    1e+07  3.3e+06    1e+06  3.3e+05    1e+05    1e+05    1e+04  3.6e+06
+  100    1e+07  6.6e+06    1e+07  6.6e+06    1e+07    1e+08  1.3e+31 9.3e+157
+ 1000    1e+07    1e+07    1e+08    1e+08    1e+09    1e+11 1.1e+302      inf
+10000    1e+07  1.3e+07    1e+09  1.3e+09    1e+11    1e+14      inf      inf
+yjun1@g7-33:~/i240b/submit/lab1/exercises/3-makefile$ gedit fns-compare.hh *[K&
+[2] 1150940
+yjun1@g7-33:~/i240b/submit/lab1/exercises/3-makefile$ 
+(gedit:1150777): Gtk-[1;33mWARNING[0m **: [34m16:36:40.208[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+[2]+  Done                    gedit fns-compare.hh
+yjun1@g7-33:~/i240b/submit/lab1/exercises/3-makefile$ make
+make: Nothing to be done for 'all'.
+yjun1@g7-33:~/i240b/submit/lab1/exercises/3-makefile$ cd ..
+yjun1@g7-33:~/i240b/submit/lab1/exercises$ cd 4-dependencies/
+yjun1@g7-33:~/i240b/submit/lab1/exercises/4-dependencies$ make
+Makefile:20: *** missing separator.  Stop.
+yjun1@g7-33:~/i240b/submit/lab1/exercises/4-dependencies$ gedit Makefile &
+[2] 1151148
+yjun1@g7-33:~/i240b/submit/lab1/exercises/4-dependencies$ make
+g++ -g -Wall -std=c++17   -c -o fns-compare.o fns-compare.cc
+g++ -g -Wall -std=c++17   -c -o constant.o constant.cc
+g++ -g -Wall -std=c++17   -c -o lg.o lg.cc
+g++ -g -Wall -std=c++17   -c -o linear.o linear.cc
+g++ -g -Wall -std=c++17   -c -o nlg.o nlg.cc
+g++ -g -Wall -std=c++17   -c -o quadratic.o quadratic.cc
+g++ -g -Wall -std=c++17   -c -o cubic.o cubic.cc
+g++ -g -Wall -std=c++17   -c -o exponential.o exponential.cc
+g++ -g -Wall -std=c++17   -c -o fact.o fact.cc
+g++ fns-compare.o constant.o lg.o linear.o nlg.o quadratic.o cubic.o exponential.o fact.o -o fns-compare
+[2]+  Done                    gedit Makefile
+yjun1@g7-33:~/i240b/submit/lab1/exercises/4-dependencies$ gedirt [K[K[Kt mak[K[K[Kfns-compare.hh & [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K&
+[2] 1151435
+yjun1@g7-33:~/i240b/submit/lab1/exercises/4-dependencies$ make
+g++ -g -Wall -std=c++17   -c -o fns-compare.o fns-compare.cc
+[01m[Kfns-compare.cc:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[Kfns-compare.cc:28:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%Lg[m[K’ expects argument of type ‘[01m[Klong double[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K-Wformat=[m[K]
+       fprintf(out, [01;35m[K"%*.*Lg"[m[K, WIDTH, PREC, [32m[KfnInfo.fn(n)[m[K);
+                    [01;35m[K^~~~~~~~[m[K               [32m[K~~~~~~~~~~~~[m[K
+g++ -g -Wall -std=c++17   -c -o constant.o constant.cc
+g++ -g -Wall -std=c++17   -c -o lg.o lg.cc
+g++ -g -Wall -std=c++17   -c -o linear.o linear.cc
+g++ -g -Wall -std=c++17   -c -o nlg.o nlg.cc
+g++ -g -Wall -std=c++17   -c -o quadratic.o quadratic.cc
+g++ -g -Wall -std=c++17   -c -o cubic.o cubic.cc
+g++ -g -Wall -std=c++17   -c -o exponential.o exponential.cc
+g++ -g -Wall -std=c++17   -c -o fact.o fact.cc
+g++ fns-compare.o constant.o lg.o linear.o nlg.o quadratic.o cubic.o exponential.o fact.o -o fns-compare
+[2]+  Done                    gedit fns-compare.hh
+yjun1@g7-33:~/i240b/submit/lab1/exercises/4-dependencies$ make
+g++ -g -Wall -std=c++17   -c -o fns-compare.o fns-compare.cc
+g++ -g -Wall -std=c++17   -c -o constant.o constant.cc
+g++ -g -Wall -std=c++17   -c -o lg.o lg.cc
+g++ -g -Wall -std=c++17   -c -o linear.o linear.cc
+g++ -g -Wall -std=c++17   -c -o nlg.o nlg.cc
+g++ -g -Wall -std=c++17   -c -o quadratic.o quadratic.cc
+g++ -g -Wall -std=c++17   -c -o cubic.o cubic.cc
+g++ -g -Wall -std=c++17   -c -o exponential.o exponential.cc
+g++ -g -Wall -std=c++17   -c -o fact.o fact.cc
+g++ fns-compare.o constant.o lg.o linear.o nlg.o quadratic.o cubic.o exponential.o fact.o -o fns-compare
+yjun1@g7-33:~/i240b/submit/lab1/exercises/4-dependencies$ cd ..
+[1]+  Done                    gedit Makefile  (wd: ~/i240b/submit/lab1/exercises/3-makefile)
+(wd now: ~/i240b/submit/lab1/exercises)
+yjun1@g7-33:~/i240b/submit/lab1/exercises$ cd 5-auto-dependencies/
+yjun1@g7-33:~/i240b/submit/lab1/exercises/5-auto-dependencies$ make
+g++ -MT linear.o -MMD -MP -MF .deps/linear.d -g -Wall -std=c++17 -c linear.cc
+g++ -MT nlg.o -MMD -MP -MF .deps/nlg.d -g -Wall -std=c++17 -c nlg.cc
+g++ -MT fact.o -MMD -MP -MF .deps/fact.d -g -Wall -std=c++17 -c fact.cc
+g++ -MT lg.o -MMD -MP -MF .deps/lg.d -g -Wall -std=c++17 -c lg.cc
+g++ -MT cubic.o -MMD -MP -MF .deps/cubic.d -g -Wall -std=c++17 -c cubic.cc
+g++ -MT exponential.o -MMD -MP -MF .deps/exponential.d -g -Wall -std=c++17 -c exponential.cc
+g++ -MT fns-compare.o -MMD -MP -MF .deps/fns-compare.d -g -Wall -std=c++17 -c fns-compare.cc
+g++ -MT constant.o -MMD -MP -MF .deps/constant.d -g -Wall -std=c++17 -c constant.cc
+g++ -MT quadratic.o -MMD -MP -MF .deps/quadratic.d -g -Wall -std=c++17 -c quadratic.cc
+g++ linear.o nlg.o fact.o lg.o cubic.o exponential.o fns-compare.o constant.o quadratic.o -o fns-compare
+yjun1@g7-33:~/i240b/submit/lab1/exercises/5-auto-dependencies$ ./fns-compare 
+    n   linear     n lg     fact     log2    cubic     expn constant    quadr
+    1    1e+05        0        1        0    1e+02       20    1e+07    1e+03
+   10    1e+06  3.3e+05  3.6e+06  3.3e+06    1e+05    1e+04    1e+07    1e+05
+  100    1e+07  6.6e+06 9.3e+157  6.6e+06    1e+08  1.3e+31    1e+07    1e+07
+ 1000    1e+08    1e+08      inf    1e+07    1e+11 1.1e+302    1e+07    1e+09
+10000    1e+09  1.3e+09      inf  1.3e+07    1e+14      inf    1e+07    1e+11
+yjun1@g7-33:~/i240b/submit/lab1/exercises/5-auto-dependencies$ ls
+constant.cc	exponential.o	fns-compare.hh	linear.o      quadratic.o
+constant.o	fact.cc		fns-compare.o	Makefile
+cubic.cc	fact.o		lg.cc		nlg.cc
+cubic.o		fns-compare	lg.o		nlg.o
+exponential.cc	fns-compare.cc	linear.cc	quadratic.cc
+yjun1@g7-33:~/i240b/submit/lab1/exercises/5-auto-dependencies$ cd [K[K[Kgedit M[KMakefile &
+[1] 1151898
+yjun1@g7-33:~/i240b/submit/lab1/exercises/5-auto-dependencies$ amn tar[K[K[K[K[K[K[Kman tar
+[?1049h[22;0;0t[?1h=TAR(1)                          GNU TAR Manual                          TAR(1)[m
+[m
+[1mNAME[0m[m
+       tar - an archiving utility[m
+[m
+[1mSYNOPSIS[0m[m
+   [1mTraditional[0m [1musage[0m[m
+       [1mtar[0m {[1mA[0m|[1mc[0m|[1md[0m|[1mr[0m|[1mt[0m|[1mu[0m|[1mx[0m}[[1mGnSkUWOmpsMBiajJzZhPlRvwo[0m] [[4mARG[24m...][m
+[m
+   [1mUNIX-style[0m [1musage[0m[m
+       [1mtar[0m [1m-A[0m [[4mOPTIONS[24m] [4mARCHIVE[24m [4mARCHIVE[24m[m
+[m
+       [1mtar[0m [1m-c[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[m
+       [1mtar[0m [1m-d[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[m
+       [1mtar[0m [1m-t[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mMEMBER[24m...][m
+[m
+       [1mtar[0m [1m-r[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[m
+       [1mtar[0m [1m-u[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[m
+       [1mtar[0m [1m-x[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mMEMBER[24m...][m
+[7m Manual page tar(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tar(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mGNU-style[0m [1musage[0m[m
+[7m Manual page tar(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mtar[0m {[1m--catenate[0m|[1m--concatenate[0m} [[4mOPTIONS[24m] [4mARCHIVE[24m [4mARCHIVE[24m[m
+[7m Manual page tar(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tar(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mtar[0m [1m--create[0m [[1m--file[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[7m Manual page tar(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tar(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mtar[0m {[1m--diff[0m|[1m--compare[0m} [[1m--file[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[7m Manual page tar(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tar(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mtar[0m [1m--delete[0m [[1m--file[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mMEMBER[24m...][m
+[7m Manual page tar(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tar(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mtar[0m [1m--append[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[7m Manual page tar(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tar(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mtar[0m [1m--list[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mMEMBER[24m...][m
+[7m Manual page tar(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tar(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mtar[0m [1m--test-label[0m [[1m--file[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mLABEL[24m...][m
+[7m Manual page tar(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tar(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mtar[0m [1m--update[0m [[1m--file[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[7m Manual page tar(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tar(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mtar[0m [1m--update[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[7m Manual page tar(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tar(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mtar[0m {[1m--extract[0m|[1m--get[0m} [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mMEMBER[24m...][m
+[7m Manual page tar(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tar(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mNOTE[0m[m
+[7m Manual page tar(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This manpage is a short description of GNU [1mtar[0m.  For a detailed discus‐[m
+[7m Manual page tar(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       sion, including examples and usage recommendations, refer  to  the  [1mGNU[0m[m
+[7m Manual page tar(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mTar[0m [1mManual[0m available in texinfo format.  If the [1minfo[0m reader and the tar[m
+[7m Manual page tar(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       documentation are properly installed on your system, the command[m
+[7m Manual page tar(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tar(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1minfo[0m [1mtar[0m[m
+[7m Manual page tar(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tar(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       should give you access to the complete manual.[m
+[7m Manual page tar(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tar(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       You can also view the manual using the info mode in [1memacs[0m(1),  or  find[m
+[7m Manual page tar(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       it in various formats online at[m
+[7m Manual page tar(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tar(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tar(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mtar[0m [1m--append[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[24;1H[K[7m Manual page tar(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tar(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mtar[0m [1m--delete[0m [[1m--file[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mMEMBER[24m...][m
+[24;1H[K[7m Manual page tar(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tar(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mtar[0m {[1m--diff[0m|[1m--compare[0m} [[1m--file[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[24;1H[K[7m Manual page tar(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tar(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mtar[0m [1m--create[0m [[1m--file[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[24;1H[K[7m Manual page tar(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tar(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mtar[0m {[1m--catenate[0m|[1m--concatenate[0m} [[4mOPTIONS[24m] [4mARCHIVE[24m [4mARCHIVE[24m[m
+[24;1H[K[7m Manual page tar(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM   [1mGNU-style[0m [1musage[0m[m
+[24;1H[K[7m Manual page tar(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tar(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mtar[0m [1m-x[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mMEMBER[24m...][m
+[24;1H[K[7m Manual page tar(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tar(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mtar[0m [1m-u[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[24;1H[K[7m Manual page tar(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tar(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mtar[0m [1m-r[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[24;1H[K[7m Manual page tar(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tar(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tar(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tar(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mtar[0m [1m-t[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mMEMBER[24m...][m
+[24;1H[K[7m Manual page tar(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tar(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mtar[0m [1m-d[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[24;1H[K[7m Manual page tar(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tar(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mtar[0m [1m-c[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[24;1H[K[7m Manual page tar(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tar(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mtar[0m [1m-A[0m [[4mOPTIONS[24m] [4mARCHIVE[24m [4mARCHIVE[24m[m
+[24;1H[K[7m Manual page tar(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM   [1mUNIX-style[0m [1musage[0m[m
+[24;1H[K[7m Manual page tar(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tar(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mtar[0m {[1mA[0m|[1mc[0m|[1md[0m|[1mr[0m|[1mt[0m|[1mu[0m|[1mx[0m}[[1mGnSkUWOmpsMBiajJzZhPlRvwo[0m] [[4mARG[24m...][m
+[24;1H[K[7m Manual page tar(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM   [1mTraditional[0m [1musage[0m[m
+[24;1H[K[7m Manual page tar(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[24;1H[K[7m Manual page tar(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tar(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       tar - an archiving utility[m
+[24;1H[K[7m Manual page tar(1) line 4 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0tyjun1@g7-33:~/i240b/submit/lab1/exercises/5-auto-dependencies$ 
+(gedit:1151898): Gtk-[1;33mWARNING[0m **: [34m16:46:05.755[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+[1]+  Done                    gedit Makefile
+yjun1@g7-33:~/i240b/submit/lab1/exercises/5-auto-dependencies$ make
+make: Nothing to be done for 'all'.
+yjun1@g7-33:~/i240b/submit/lab1/exercises/5-auto-dependencies$ mad[Kkd[Ke dist
+tar -cf fns-compare.tar linear.cc nlg.cc fact.cc lg.cc cubic.cc exponential.cc fns-compare.cc constant.cc quadratic.cc fns-compare.hh Makefile
+yjun1@g7-33:~/i240b/submit/lab1/exercises/5-auto-dependencies$ mkdir -p ~/tmp/fn s-com[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmkdir -p ~/tmp/fns-compare
+yjun1@g7-33:~/i240b/submit/lab1/exercises/5-auto-dependencies$ cd ~/tmp/fns-compare
+yjun1@g7-33:~/tmp/fns-compare$ tar -xvf ~/i240?/submit/lab1/5*/fns-compare.tar
+tar: /home/yjun1/i240?/submit/lab1/5*/fns-compare.tar: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+yjun1@g7-33:~/tmp/fns-compare$ tar -xvf ~/i240?/submit/lab1/5*/fns-compare.tar[1P/submit/lab1/5*/fns-compare.tarb/submit/lab1/5*/fns-compare.tar[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/fns-compare.tar*/fns-compare.tar
+tar: /home/yjun1/i240b/submit/lab1/5*/fns-compare.tar: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+yjun1@g7-33:~/tmp/fns-compare$ tar -xvf ~/i240b/submit/lab1/5*/fns-compare.tar[C[1P/submit/lab1/5*/fns-compare.tarb/submit/lab1/5*/fns-compare.tar[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+exercises/  lab1/       lab1.LOG    lab1.umt    
+.gitignore  lab1.html   lab1.pdf    
+yjun1@g7-33:~/tmp/fns-compare$ tar -xvf ~/i240b/submit/lab1/
+exercises/  lab1/       lab1.LOG    lab1.umt    
+.gitignore  lab1.html   lab1.pdf    
+yjun1@g7-33:~/tmp/fns-compare$ tar -xvf ~/i240b/submit/lab1/exercises/
+0-hello/                3-makefile/             .gitignore
+1-monolithic/           4-dependencies/         lab1.LOG
+2-separate-compilation/ 5-auto-dependencies/    
+yjun1@g7-33:~/tmp/fns-compare$ tar -xvf ~/i240b/submit/lab1/exercises/5-auto-dependencies/
+constant.cc      exponential.o    fns-compare.o    linear.o
+constant.o       fact.cc          fns-compare.tar  Makefile
+cubic.cc         fact.o           .gitignore       nlg.cc
+cubic.o          fns-compare      lg.cc            nlg.o
+.deps/           fns-compare.cc   lg.o             quadratic.cc
+exponential.cc   fns-compare.hh   linear.cc        quadratic.o
+yjun1@g7-33:~/tmp/fns-compare$ tar -xvf ~/i240b/submit/lab1/exercises/5-auto-dependencies/fns-compare.s[Ktar 
+linear.cc
+nlg.cc
+fact.cc
+lg.cc
+cubic.cc
+exponential.cc
+fns-compare.cc
+constant.cc
+quadratic.cc
+fns-compare.hh
+Makefile
+yjun1@g7-33:~/tmp/fns-compare$ make
+g++ -MT linear.o -MMD -MP -MF .deps/linear.d -g -Wall -std=c++17 -c linear.cc
+g++ -MT fact.o -MMD -MP -MF .deps/fact.d -g -Wall -std=c++17 -c fact.cc
+g++ -MT nlg.o -MMD -MP -MF .deps/nlg.d -g -Wall -std=c++17 -c nlg.cc
+g++ -MT cubic.o -MMD -MP -MF .deps/cubic.d -g -Wall -std=c++17 -c cubic.cc
+g++ -MT exponential.o -MMD -MP -MF .deps/exponential.d -g -Wall -std=c++17 -c exponential.cc
+g++ -MT fns-compare.o -MMD -MP -MF .deps/fns-compare.d -g -Wall -std=c++17 -c fns-compare.cc
+g++ -MT constant.o -MMD -MP -MF .deps/constant.d -g -Wall -std=c++17 -c constant.cc
+g++ -MT quadratic.o -MMD -MP -MF .deps/quadratic.d -g -Wall -std=c++17 -c quadratic.cc
+g++ -MT lg.o -MMD -MP -MF .deps/lg.d -g -Wall -std=c++17 -c lg.cc
+g++ linear.o fact.o nlg.o cubic.o exponential.o fns-compare.o constant.o quadratic.o lg.o -o fns-compare
+yjun1@g7-33:~/tmp/fns-compare$ ./fns-compare 
+    n   linear     fact     n lg    cubic     expn constant    quadr     log2
+    1    1e+05        1        0    1e+02       20    1e+07    1e+03        0
+   10    1e+06  3.6e+06  3.3e+05    1e+05    1e+04    1e+07    1e+05  3.3e+06
+  100    1e+07 9.3e+157  6.6e+06    1e+08  1.3e+31    1e+07    1e+07  6.6e+06
+ 1000    1e+08      inf    1e+08    1e+11 1.1e+302    1e+07    1e+09    1e+07
+10000    1e+09      inf  1.3e+09    1e+14      inf    1e+07    1e+11  1.3e+07
+yjun1@g7-33:~/tmp/fns-compare$ exit
+
+Script done on 2020-01-30 16:50:25-05:00 [COMMAND_EXIT_CODE="0"]
