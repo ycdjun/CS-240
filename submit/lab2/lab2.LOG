@@ -1,0 +1,256 @@
+Script started on 2020-02-06 16:24:12-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+yjun1@g7-33:~/i240b/submit/lab2$ ls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+yjun1@g7-33:~/i240b/submit/lab2$ cd ..
+yjun1@g7-33:~/i240b/submit$ ls
+lab0  lab1  lab2  submit
+yjun1@g7-33:~/i240b/submit$ cd lab2
+yjun1@g7-33:~/i240b/submit/lab2$ cd [K[K[Kcd ex[K[K[K[K[K.[Kcd 1-hello/
+yjun1@g7-33:~/i240b/submit/lab2/1-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+yjun1@g7-33:~/i240b/submit/lab2/1-hello$ ./hello
+usage: ./hello NAME...
+yjun1@g7-33:~/i240b/submit/lab2/1-hello$ ./hello bart lisa
+hello bart
+hello lisa
+hello yjun1@g7-33:~/i240b/submit/lab2/1-hello$ gdb hello 
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from hello...done.
+(gdb) start bart lisa
+Temporary breakpoint 1 at 0x11cd: file hello.cc, line 13.
+Starting program: /import/linux/home1/yjun1/projects/i240b/submit/lab2/1-hello/hello bart lisa
+
+Temporary breakpoint 1, main (argc=3, argv=0x7fffffffe788) at hello.cc:13
+13	  if (argc == 1) {
+(gdb) l
+8	}
+9	
+10	int 
+11	main(int argc, const char *argv[])
+12	{
+13	  if (argc == 1) {
+14	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+15	    std::exit(1);
+16	  }
+17	  else {
+(gdb) b sayHello(char const*) [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kb sayHello(char const*) 
+Breakpoint 2 at 0x555555555181: file hello.cc, line 7.
+(gdb) p argc
+$1 = 3
+(gdb) p argv
+$2 = (const char **) 0x7fffffffe788
+(gdb) p arv[Kgv [K[0]
+$3 = 0x7fffffffea77 "/import/linux/home1/yjun1/projects/i240b/submit/lab2/1-hello/hello"
+(gdb) p argv[0][1P]1]
+$4 = 0x7fffffffeaba "bart"
+(gdb) p argv[1][1P]2]
+$5 = 0x7fffffffeabf "lisa"
+(gdb) p *argv@3
+$6 = {
+  0x7fffffffea77 "/import/linux/home1/yjun1/projects/i240b/submit/lab2/1-hello/hello", 0x7fffffffeaba "bart", 0x7fffffffeabf "lisa"}
+(gdb) n
+18	    for (int i = 1; i <= argc; i++) {
+(gdb) n
+19	      sayHello(argv[i]);
+(gdb) n
+
+Breakpoint 2, sayHello (name=0x7fffffffeaba "bart") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) n[Kc.sayHello(char const*) 
+A syntax error in expression, near `.sayHello(char const*)'.
+(gdb) l
+2	#include <cstdlib>
+3	
+4	static void
+5	sayHello(const char *name)
+6	{
+7	  std::cout << "hello " << name << std::endl;
+8	}
+9	
+10	int 
+11	main(int argc, const char *argv[])
+(gdb) backs[Ktrace
+#0  sayHello (name=0x7fffffffeaba "bart") at hello.cc:7
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe788) at hello.cc:19
+(gdb) p argc
+No symbol "argc" in current context.
+(gdb) up
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe788) at hello.cc:19
+19	      sayHello(argv[i]);
+(gdb) p argc
+$7 = 3
+(gdb) p argv
+$8 = (const char **) 0x7fffffffe788
+(gdb) par[K[K[Kp i
+$9 = 1
+(gdb) down
+#0  sayHello (name=0x7fffffffeaba "bart") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) c.sayHello(char const*) 
+A syntax error in expression, near `.sayHello(char const*)'.
+(gdb) p name
+$10 = 0x7fffffffeaba "bart"
+(gdb) c.say[K[K[K[K[Kc. s[K[K sayHello()
+A syntax error in expression, near `. sayHello()'.
+(gdb) p name
+$11 = 0x7fffffffeaba "bart"
+(gdb) c
+Continuing.
+hello bart
+
+Breakpoint 2, sayHello (name=0x7fffffffeabf "lisa") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) pnam[K[K[K name
+$12 = 0x7fffffffeabf "lisa"
+(gdb) c
+Continuing.
+hello lisa
+
+Breakpoint 2, sayHello (name=0x0) at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) p i
+No symbol "i" in current context.
+(gdb) up
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe788) at hello.cc:19
+19	      sayHello(argv[i]);
+(gdb) p i
+$13 = 3
+(gdb) p argc
+$14 = 3
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 2287970] will be killed.
+
+Quit anyway? (y or n) y
+yjun1@g7-33:~/i240b/submit/lab2/1-hello$ ls
+hello  hello.cc  Makefile  README
+yjun1@g7-33:~/i240b/submit/lab2/1-hello$ gedit hello.cc &
+[1] 2288762
+yjun1@g7-33:~/i240b/submit/lab2/1-hello$ 
+(gedit:2288762): Gtk-[1;33mWARNING[0m **: [34m16:32:37.574[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+[1]+  Done                    gedit hello.cc
+yjun1@g7-33:~/i240b/submit/lab2/1-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+yjun1@g7-33:~/i240b/submit/lab2/1-hello$ ./hello 
+usage: ./hello NAME...
+yjun1@g7-33:~/i240b/submit/lab2/1-hello$ ./hello lisa [K[K[K[K[K[K bart lisa
+hello bart
+hello lisa
+yjun1@g7-33:~/i240b/submit/lab2/1-hello$ cd ..
+yjun1@g7-33:~/i240b/submit/lab2$ cd 2-hello/
+yjun1@g7-33:~/i240b/submit/lab2/2-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+yjun1@g7-33:~/i240b/submit/lab2/2-hello$ ./hello
+usage: ./hello NAME...
+yjun1@g7-33:~/i240b/submit/lab2/2-hello$ ./hello lisa B[Kbart
+Hello Lisa
+Hello Bart
+Segmentation fault
+yjun1@g7-33:~/i240b/submit/lab2/2-hello$ ./hello l[K'lisa simpson' 'bart simpson'
+Hello Lisa SimpsonV
+Hello Bart SimpsonV
+Segmentation fault
+yjun1@g7-33:~/i240b/submit/lab2/2-hello$ ged[K[K[Kgedit helloc[K.cc [K&
+[1] 2288958
+yjun1@g7-33:~/i240b/submit/lab2/2-hello$ 
+(gedit:2288958): Gtk-[1;33mWARNING[0m **: [34m16:34:57.245[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+yjun1@g7-33:~/i240b/submit/lab2/2-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+yjun1@g7-33:~/i240b/submit/lab2/2-hello$ ./hello lis a[K[Ka bart
+Hello Lisa
+Hello Bart
+yjun1@g7-33:~/i240b/submit/lab2/2-hello$ ./he[K[Khello lisa [K[K[K[K[K[K[K[K[K[K[K[K[K./ [K[K[K./helloa 'lisa simpson' 'bart simpson'
+bash: ./helloa: No such file or directory
+yjun1@g7-33:~/i240b/submit/lab2/2-hello$ ./helloa 'lisa simpson' 'bart simpson'[1P
+Hello Lisa Simpson
+Hello Bart Simpson
+yjun1@g7-33:~/i240b/submit/lab2/2-hello$ cd..
+bash: cd..: command not found
+[1]+  Done                    gedit hello.cc
+yjun1@g7-33:~/i240b/submit/lab2/2-hello$ cd..
+bash: cd..: command not found
+yjun1@g7-33:~/i240b/submit/lab2/2-hello$ cd ..
+yjun1@g7-33:~/i240b/submit/lab2$ cd [K[K[Kcd 3-overload/
+yjun1@g7-33:~/i240b/submit/lab2/3-overload$ make
+g++ -g -Wall -std=c++17    overload.cc   -o overload
+yjun1@g7-33:~/i240b/submit/lab2/3-overload$ ./overload 
+f(a) = 3; f(&a) = 4; f(a, b) = -1
+yjun1@g7-33:~/i240b/submit/lab2/3-overload$ gdb oe[Kverload
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from overload...done.
+(gdb) b f(int [K[K[K[K[K[K[K[Kb f[Kf(int [K*) 
+Breakpoint 1 at 0x117d: file overload.cc, line 3.
+(gdb) b f(int
+f(int)       f(int*)      f(int, int)  
+(gdb) b f(int
+f(int)       f(int*)      f(int, int)  
+(gdb) b f(int[K[K[K[K[K[K[Kr
+Starting program: /import/linux/home1/yjun1/projects/i240b/submit/lab2/3-overload/overload 
+
+Breakpoint 1, f (a=0x7fffffffe698) at overload.cc:3
+3	int f(int *a) { return *a * 2; }
+(gdb) p a
+$1 = (int *) 0x7fffffffe698
+(gdb) p *a
+$2 = 2
+(gdb) p *a=5
+$3 = 5
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /import/linux/home1/yjun1/projects/i240b/submit/lab2/3-overload/overload 
+
+Breakpoint 1, f (a=0x7fffffffe698) at overload.cc:3
+3	int f(int *a) { return *a * 2; }
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 2289773] will be killed.
+
+Quit anyway? (y or n) y
+yjun1@g7-33:~/i240b/submit/lab2/3-overload$ cd ~/i240b
+yjun1@g7-33:~/i240b$ git branhc[K[Kch -l
+[?1h=  lab0[m[m
+  lab1[m[m
+* [32mlab2[m[m
+  master[m[m
+[K[?1l>yjun1@g7-33:~/i240b$ git merge-[K -m'merg[K[K[K[K[K 'merged mater[K[K[Kster' master
+Already up to date.
+yjun1@g7-33:~/i240b$ git add submit/L[Klab2
+yjun1@g7-33:~/i240b$ exit
+
+Script done on 2020-02-06 16:40:34-05:00 [COMMAND_EXIT_CODE="0"]
