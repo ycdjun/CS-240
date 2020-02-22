@@ -44,7 +44,7 @@ std::string getFixedString(std::string str){
 }
 
 
-int checkInput(std::string args){
+int checkInput(std::string args){ //error checking for valid integers
 	int check = std::stoi(args);
 	if(std::to_string(check).length() != args.length()) throw std::invalid_argument("");
 	return check;
@@ -54,25 +54,25 @@ int main(int argc, char * argv[]){
 	auto args = std::vector<std::string>(&argv[0], &argv[argc]);
 	
 	if(argc <4){
-		std::cout << "usage: ./wordcounts MAX_N_OUT MIN_WORD_LEN MAX_WORD_LEN FILE..." << std::endl;
+		std::cerr << "usage: ./wordcounts MAX_N_OUT MIN_WORD_LEN MAX_WORD_LEN FILE..." << std::endl;
 		return 1;
 	}
 	
 	
-	for(int i = 1; i < argc -1; i++){
+	for(int i = 1; i < 4; i++){
 		int input = 0;
 		try{
 			input = checkInput(args[i]);
 		}
 		catch(std::invalid_argument& e){
 			if(i == 1){
-				std::cout << "bad integer value \"" << args[i] << "\" for MAX_N_OUT" << std::endl;
+				std::cerr << "bad integer value \"" << args[i] << "\" for MAX_N_OUT" << std::endl;
 			}
 			else if(i == 2){
-				std::cout << "bad integer value \"" << args[i] << "\" for MIN_WORD_LEN" << std::endl;
+				std::cerr << "bad integer value \"" << args[i] << "\" for MIN_WORD_LEN" << std::endl;
 			}
 			else{
-				std::cout << "bad integer value \"" << args[i] << "\" for MAX_WORD_LEN" << std::endl;
+				std::cerr << "bad integer value \"" << args[i] << "\" for MAX_WORD_LEN" << std::endl;
 			}
 			return 1;
 		}
@@ -82,32 +82,32 @@ int main(int argc, char * argv[]){
 		return 1;
 	}
 	
-	int MAX_N_OUT = std::stoi(args[1]);
-	int MIN_WORD_LEN = std::stoi(args[2]);
-	int MAX_WORD_LEN = std::stoi(args[3]);
-	std::string file = args[4];
+	int const MAX_N_OUT = std::stoi(args[1]);
+	int const MIN_WORD_LEN = std::stoi(args[2]);
+	int const MAX_WORD_LEN = std::stoi(args[3]);
 	
 	
 	std::unordered_map<std::string, Count> map;
 	
+	for(int i = 4; i < argc; i++){
+		std::ifstream in(args[i]);
 	
-	std::ifstream in(file);
-	
-	if(in.good()){
-		while(in.good()){
-			std::string w;
-			in >> w;
-			
-			std::string transformedWord = getFixedString(w);
-			
-			Count& count = map[transformedWord];
-			count += 1;
-			
+		if(in.good()){
+			while(in.good()){
+				std::string w;
+				in >> w;
+				
+				std::string transformedWord = getFixedString(w);
+				
+				Count& count = map[transformedWord];
+				count += 1;
+				
+			}
 		}
-	}
-	else{
-		std::cout << "cannot read " << file << std::endl;
-		return 1;
+		else{
+			std::cerr << "cannot read " << args[i] << std::endl;
+			return 1;
+		}
 	}
 	
 	auto wordCounts = std::vector<WordCount>(map.begin(), map.end());
