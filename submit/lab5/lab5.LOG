@@ -1,0 +1,280 @@
+Script started on 2020-02-27 16:30:21-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5$ cd 1[Kexercises/1-animal/
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/1-animal$ make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:10:24:[m[K [01;31m[Kerror: [m[Kinvalid abstract type ‘[01m[KAnimal[m[K’ for ‘[01m[Kanimals[m[K’
+   const Animal animals[[01;31m[K][m[K = { fido, fluffy };
+                        [01;31m[K^[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kanimal.hh:3:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KAnimal[m[K’:
+ class [01;36m[KAnimal[m[K {
+       [01;36m[K^~~~~~[m[K
+[01m[Kanimal.hh:8:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string Animal::says() const[m[K’
+   virtual std::string [01;36m[Ksays[m[K()  const = 0;
+                       [01;36m[K^~~~[m[K
+[01m[Kmain.cc:10:43:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+   const Animal animals[] = { fido, fluffy [01;31m[K}[m[K;
+                                           [01;31m[K^[m[K
+[01m[Kmain.cc:10:43:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+[01m[Kmain.cc:11:25:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kconst Animal* animals [][m[K’
+   const Animal *animals[[01;31m[K][m[K = {
+                         [01;31m[K^[m[K
+[01m[Kmain.cc:10:16:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kconst Animal animals [2][m[K’
+   const Animal [01;36m[Kanimals[m[K[] = { fido, fluffy };
+                [01;36m[K^~~~~~~[m[K
+[01m[Kmain.cc:19:23:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+   for (auto animalP : [01;31m[Kanimals[m[K) {
+                       [01;31m[K^~~~~~~[m[K
+[01m[Kmain.cc:19:13:[m[K [01;31m[Kerror: [m[Kcannot declare variable ‘[01m[KanimalP[m[K’ to be of abstract type ‘[01m[KAnimal[m[K’
+   for (auto [01;31m[KanimalP[m[K : animals) {
+             [01;31m[K^~~~~~~[m[K
+[01m[Kmain.cc:20:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KAnimal[m[K’
+     out << animalP[01;31m[K->[m[Kname << " says " << animalP->says() << std::endl;
+                   [01;31m[K^~[m[K
+[01m[Kmain.cc:20:48:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KAnimal[m[K’
+     out << animalP->name << " says " << animalP[01;31m[K->[m[Ksays() << std::endl;
+                                                [01;31m[K^~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/1-animal$ make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:10:24:[m[K [01;31m[Kerror: [m[Kinvalid abstract type ‘[01m[KAnimal[m[K’ for ‘[01m[Kanimals[m[K’
+   const Animal animals[[01;31m[K][m[K = { fido, fluffy };
+                        [01;31m[K^[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kanimal.hh:3:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KAnimal[m[K’:
+ class [01;36m[KAnimal[m[K {
+       [01;36m[K^~~~~~[m[K
+[01m[Kanimal.hh:8:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string Animal::says() const[m[K’
+   virtual std::string [01;36m[Ksays[m[K()  const = 0;
+                       [01;36m[K^~~~[m[K
+[01m[Kmain.cc:10:43:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+   const Animal animals[] = { fido, fluffy [01;31m[K}[m[K;
+                                           [01;31m[K^[m[K
+[01m[Kmain.cc:10:43:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+[01m[Kmain.cc:11:25:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kconst Animal* animals [][m[K’
+   const Animal *animals[[01;31m[K][m[K = {
+                         [01;31m[K^[m[K
+[01m[Kmain.cc:10:16:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kconst Animal animals [2][m[K’
+   const Animal [01;36m[Kanimals[m[K[] = { fido, fluffy };
+                [01;36m[K^~~~~~~[m[K
+[01m[Kmain.cc:19:23:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+   for (auto animalP : [01;31m[Kanimals[m[K) {
+                       [01;31m[K^~~~~~~[m[K
+[01m[Kmain.cc:19:13:[m[K [01;31m[Kerror: [m[Kcannot declare variable ‘[01m[KanimalP[m[K’ to be of abstract type ‘[01m[KAnimal[m[K’
+   for (auto [01;31m[KanimalP[m[K : animals) {
+             [01;31m[K^~~~~~~[m[K
+[01m[Kmain.cc:20:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KAnimal[m[K’
+     out << animalP[01;31m[K->[m[Kname << " says " << animalP->says() << std::endl;
+                   [01;31m[K^~[m[K
+[01m[Kmain.cc:20:48:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KAnimal[m[K’
+     out << animalP->name << " says " << animalP[01;31m[K->[m[Ksays() << std::endl;
+                                                [01;31m[K^~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/1-animal$ make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/1-animal$ make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kanimal.hh:9:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   virtual std::string eats() const = [01;31m[K0[m[K
+                                      [01;31m[K^[m[K
+                                       [32m[K;[m[K
+make: *** [../Makefile:48: main.o] Error 1
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/1-animal$ 
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/1-animal$ make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/1-animal$ ./main 
+bessie says moo
+bessie eats grass
+bossy says moo
+bossy eats grass
+fido says woof
+fido eats meat
+fluffy says meow
+fluffy eats fish
+rufus says woof
+rufus eats meat
+simba says meow
+simba eats fish
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/1-animal$ 
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/1-animal$ ./main [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/1-animal$ make -f ../Makefile[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./main [K
+bessie eats grass
+bossy eats grass
+fido eats meat
+fluffy eats fish
+rufus eats meat
+simba eats fish
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/1-animal$ cd ~ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Kcd . .
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises$ cd 2-expr/
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ cd 2-expr/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P..
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./main [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f ../Makefile
+g++ -MT tostring.o -MMD -MP -MF .deps/tostring.d -g -Wall -std=c++17 -c tostring.cc
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ -MT parse.o -MMD -MP -MF .deps/parse.d -g -Wall -std=c++17 -c parse.cc
+g++ -MT expr.o -MMD -MP -MF .deps/expr.d -g -Wall -std=c++17 -c expr.cc
+g++ tostring.o main.o parse.o expr.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o main.o parse.o expr.o; do echo $t >>.gitignore; done
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ ./main 
+usage: ./main PREFIX_EXPR...
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ dc
+1 p c
+1
+f
+123 *       2 3 * + p c
+7
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ ls
+expr.cc  expr.o  main.cc  parse.cc  parse.o	 tostring.hh
+expr.hh  main	 main.o   parse.hh  tostring.cc  tostring.o
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ expr[K[K[K[Kexpr.c c [K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Kgedit  expr.cc [K &
+[1] 1682722
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ gedi[Kit  expr.hh &
+[2] 1682752
+[1]   Done                    gedit expr.cc
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ d
+bash: d: command not found
+[2]+  Done                    gedit expr.hh
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ dgedit expr.hh &cc[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pls
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdc./main [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MulExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; _Tp = MulExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MulExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; _Tp = MulExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<MulExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; _Tp = MulExpr; _Alloc = std::allocator<MulExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MulExpr; _Alloc = std::allocator<MulExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MulExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; _Tp = MulExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MulExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; _Tp = MulExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MulExpr; _Alloc = std::allocator<MulExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MulExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}][m[K’
+[01m[Kexpr.hh:109:63:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KMulExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:100:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KMulExpr[m[K’:
+ class [01;36m[KMulExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.hh:13:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string Expr::dcCode() const[m[K’
+   virtual std::string [01;36m[KdcCode[m[K() const = 0;
+                       [01;36m[K^~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ 
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ -MT parse.o -MMD -MP -MF .deps/parse.d -g -Wall -std=c++17 -c parse.cc
+g++ -MT expr.o -MMD -MP -MF .deps/expr.d -g -Wall -std=c++17 -c expr.cc
+[01m[Kexpr.cc:63:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::__cxx11::string AddExpr::toString() const[m[K’
+ [01;31m[KAddExpr[m[K::toString() const
+ [01;31m[K^~~~~~~[m[K
+[01m[Kexpr.cc:31:1:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual std::__cxx11::string AddExpr::toString() const[m[K’ previously defined here
+ [01;36m[KAddExpr[m[K::toString() const
+ [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.cc:69:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::__cxx11::string SubExpr::toString() const[m[K’
+ [01;31m[KSubExpr[m[K::toString() const
+ [01;31m[K^~~~~~~[m[K
+[01m[Kexpr.cc:37:1:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual std::__cxx11::string SubExpr::toString() const[m[K’ previously defined here
+ [01;36m[KSubExpr[m[K::toString() const
+ [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.cc:75:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::__cxx11::string MulExpr::toString() const[m[K’
+ [01;31m[KMulExpr[m[K::toString() const
+ [01;31m[K^~~~~~~[m[K
+[01m[Kexpr.cc:43:1:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual std::__cxx11::string MulExpr::toString() const[m[K’ previously defined here
+ [01;36m[KMulExpr[m[K::toString() const
+ [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.cc:81:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::__cxx11::string DivExpr::toString() const[m[K’
+ [01;31m[KDivExpr[m[K::toString() const
+ [01;31m[K^~~~~~~[m[K
+[01m[Kexpr.cc:49:1:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual std::__cxx11::string DivExpr::toString() const[m[K’ previously defined here
+ [01;36m[KDivExpr[m[K::toString() const
+ [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.cc:55:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::__cxx11::string binaryExprToDcString(std::__cxx11::string, ExprPtr, ExprPtr)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[KbinaryExprToDcString[m[K(std::string op, ExprPtr left, ExprPtr right)
+ [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+make: *** [../Makefile:48: expr.o] Error 1
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ 
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ make -f ../Makefile
+g++ -MT expr.o -MMD -MP -MF .deps/expr.d -g -Wall -std=c++17 -c expr.cc
+g++ tostring.o main.o parse.o expr.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o main.o parse.o expr.o; do echo $t >>.gitignore; done
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ make -f ../Makefile[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f ../Makefile[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit expr.hh &cc[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pls
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdc./main 
+usage: ./main PREFIX_EXPR...
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ ./main "- 3 2" "* + 1 2 5" | dc
+dc: '(' (050) unimplemented
+dc: ')' (051) unimplemented
+dc: stack empty
+dc: '(' (050) unimplemented
+dc: ')' (051) unimplemented
+dc: '(' (050) unimplemented
+dc: '(' (050) unimplemented
+dc: ')' (051) unimplemented
+dc: '(' (050) unimplemented
+dc: ')' (051) unimplemented
+dc: ')' (051) unimplemented
+dc: '(' (050) unimplemented
+dc: ')' (051) unimplemented
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ ./main  "+ + + / 22  6 * 5 3 - 2 5 * 3 5"
+((((22) / (6)) + ((5) * (3))) + ((2) - (5))) + ((3) * (5)) = 30
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ ./main  "+ + + / 22  6 * 5 3 - 2 5 * 3 5"[C[10P"- 3 2" "* + 1 2 5" | dc[C[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f ../Makefile
+g++ -MT expr.o -MMD -MP -MF .deps/expr.d -g -Wall -std=c++17 -c expr.cc
+g++ tostring.o main.o parse.o expr.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o main.o parse.o expr.o; do echo $t >>.gitignore; done
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ make -f ../Makefile[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./main [C"+ + + / 22  6 * 5 3 - 2 5 * 3 5"
+((((22) / (6)) + ((5) * (3))) + ((2) - (5))) + ((3) * (5)) = 30
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ ./main  "+ + + / 22  6 * 5 3 - 2 5 * 3 5"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f[C[22P../Makefile[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./main [C"+ + + / 22  6 * 5 3 - 2 5 * 3 5"[C[10P"- 3 2" "* + 1 2 5" | dc[C[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f ../Makefile[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Kgedut  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kit  main.cc &
+[1] 1684322
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ gedit main.cc &[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./main  "+ + + / 22  6 * 5 3 - 2 5 * 3 5"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f[C[22P../Makefile[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./main [C"+ + + / 22  6 * 5 3 - 2 5 * 3 5"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f[C[22P../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ tostring.o main.o parse.o expr.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o main.o parse.o expr.o; do echo $t >>.gitignore; done
+[1]+  Done                    gedit main.cc
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ make -f ../Makefile[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit m[4Pain.cc &[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./main  "+ + + / 22  6 * 5 3 - 2 5 * 3 5"
+22 6 / 5 3 * + 2 5 - + 3 5 * + p c
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ ./main "- 3 2" "* + 1 2 5" | dc
+1
+15
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises/2-expr$ cd ..
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5/exercises$ cd ..
+yjun1@g7-24:/import/linux/home1/yjun1/i240b/submit/lab5$ exit
+
+Script done on 2020-02-27 16:58:55-05:00 [COMMAND_EXIT_CODE="0"]
