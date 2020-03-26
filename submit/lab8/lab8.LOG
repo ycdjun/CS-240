@@ -1,0 +1,183 @@
+Script started on 2020-03-26 17:46:46-0400
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ enb
+
+Command 'enb' not found, did you mean:
+
+  command 'inb' from deb ioport
+  command 'ebb' from deb texlive-binaries
+  command 'erb' from deb ruby
+  command 'nb' from deb nanoblogger
+  command 'wnb' from deb wordnet-gui
+  command 'edb' from deb edb-debugger
+  command 'tnb' from deb pvm-examples
+  command 'ent' from deb ent
+  command 'env' from deb coreutils
+  command 'hnb' from deb hnb
+
+Try: sudo apt install <deb name>
+
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ env
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+HOSTTYPE=x86_64
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LIBGL_ALWAYS_INDIRECT=1
+LANG=C.UTF-8
+DISPLAY=:0
+OLDPWD=/home/ycdjun/i240b/submit
+WSL_DISTRO_NAME=Ubuntu
+USER=ycdjun
+PWD=/home/ycdjun/i240b/submit/lab8
+HOME=/home/ycdjun
+NAME=DESKTOP-23I9KR1
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+TERM=xterm-256color
+SHELL=/bin/bash
+SHLVL=2
+LOGNAME=ycdjun
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.UbuntuonWindows_1804.2020.5.0_x64__79rhkp1fndgsc:/mnt/c/Users/Yongchan/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.7:/mnt/c/Program Files/Java/jdk-11.0.2/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/Yongchan/AppData/Local/Programs/Python/Python37-32/Scripts/:/mnt/c/Users/Yongchan/AppData/Local/Programs/Python/Python37-32/:/mnt/c/Users/Yongchan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Yongchan/AppData/Local/atom/bin:/snap/bin
+WSLENV=
+LESSOPEN=| /usr/bin/lesspipe %s
+_=/usr/bin/env
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ echo [K[K[K[K[Kecho $HOME
+/home/ycdjun
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ echo #[K$PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.UbuntuonWindows_1804.2020.5.0_x64__79rhkp1fndgsc:/mnt/c/Users/Yongchan/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.7:/mnt/c/Program Files/Java/jdk-11.0.2/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/Yongchan/AppData/Local/Programs/Python/Python37-32/Scripts/:/mnt/c/Users/Yongchan/AppData/Local/Programs/Python/Python37-32/:/mnt/c/Users/Yongchan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Yongchan/AppData/Local/atom/bin:/snap/bin
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ echo $xxx
+
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ xxx=123
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ echo $xxx
+123
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ env \ [K[K| grep xxx
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ export xxx
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ export xxx[4@nv | grep[C[C[C[C[K
+[01;31m[Kxx[m[Kx=123
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ export xx [K=445[K[K56
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ en[K[Kexport xx=456nv | grep xx
+[01;31m[Kxx[m[K=456
+[01;31m[Kxx[m[Kx=123
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ echo $[K[K[K[K[K[Kecho[K[K[K[Kecho %[K#p[K[K$pp[K
+
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ p=$PATH
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ echo p
+p
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ echo $[[Kp
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.UbuntuonWindows_1804.2020.5.0_x64__79rhkp1fndgsc:/mnt/c/Users/Yongchan/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.7:/mnt/c/Program Files/Java/jdk-11.0.2/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/Yongchan/AppData/Local/Programs/Python/Python37-32/Scripts/:/mnt/c/Users/Yongchan/AppData/Local/Programs/Python/Python37-32/:/mnt/c/Users/Yongchan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Yongchan/AppData/Local/atom/bin:/snap/bin
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ $path[K[K[K[KAPT[K[K[KPATH [K=""[K[K
+bash: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program: No such file or directory
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ $PATH=""
+bash: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program: No such file or directory
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.UbuntuonWindows_1804.2020.5.0_x64__79rhkp1fndgsc:/mnt/c/Users/Yongchan/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.7:/mnt/c/Program Files/Java/jdk-11.0.2/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/Yongchan/AppData/Local/Programs/Python/Python37-32/Scripts/:/mnt/c/Users/Yongchan/AppData/Local/Programs/Python/Python37-32/:/mnt/c/Users/Yongchan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Yongchan/AppData/Local/atom/bin:/snap/bin
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ PATRH[K[K[K[K[Kpath[K[K[K[KAPT[K[K[KPATH=""
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ echo #[K[K $PATH
+
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ ls
+bash: ls: No such file or directory
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ pat[K[K[KPATH=#[K$p
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ ls
+[0m[34;42mexercises[0m  lab8.LOG
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ ^V[Kls ; wc *
+[0m[34;42mexercises[0m  lab8.LOG
+wc: exercises: Is a directory
+      0       0       0 exercises
+     76     248    8704 lab8.LOG
+     76     248    8704 total
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ find -L ~/cs240 -name '*.c' 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ find -L ~/cs240 -name '*.c' | wc -l
+0
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ find / -name '*.c' 2>/dev/null >c-files.lst &
+[1] 91
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ jobs
+[1]+  Running                 find / -name '*.c' 2> /dev/null > c-files.lst &
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ kill ^[K%1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ 
+[1]+  Terminated              find / -name '*.c' 2> /dev/null > c-files.lst
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8[00m$ c[Kcd ~
+]0;ycdjun@DESKTOP-23I9KR1: ~[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~[00m$ pwd
+/home/ycdjun
+]0;ycdjun@DESKTOP-23I9KR1: ~[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~[00m$ xx==123[K[K[K[K123
+]0;ycdjun@DESKTOP-23I9KR1: ~[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~[00m$ pwd; echo $xx; (xx=abc; cd /; pwd; echo $xx); pwd; echo $xx
+/home/ycdjun
+123
+/
+abc
+/home/ycdjun
+123
+]0;ycdjun@DESKTOP-23I9KR1: ~[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~[00m$ cd ~/i240b/e[Kl[Ksubmit/lab8/s[Kexercises/344[K[K-subshells/
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises/3-subshells[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises/3-subshells[00m$ make
+cd ~/cs240
+ls
+Makefile
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises/3-subshells[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises/3-subshells[00m$ ls
+Makefile
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises/3-subshells[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises/3-subshells[00m$ gedit mak[K[K[KMakefile 
+
+** (gedit:109): [1;33mWARNING[0m **: [34m17:56:31.266[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises/3-subshells[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises/3-subshells[00m$ gedit Makefile 
+
+** (gedit:136): [1;33mWARNING[0m **: [34m17:58:13.657[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:136): [1;33mWARNING[0m **: [34m17:58:13.657[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:136): [1;33mWARNING[0m **: [34m17:58:15.225[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises/3-subshells[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises/3-subshells[00m$ gedit Makefile ls[Kmake
+cd ~/cs240;
+ls
+Makefile
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises/3-subshells[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises/3-subshells[00m$ makegedit Makefile ls[Kmakecd ~/i240b/submit/lab8/exercises/3-subshells/make[K[2Plsgedit Makefile make[K[Kmakegedit Makefile ls[Kmakecd ~/i240b/submit/lab8/exercises/3-subshells/make[K[2Plsgedit Makefile 
+
+** (gedit:146): [1;33mWARNING[0m **: [34m17:58:32.755[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:146): [1;33mWARNING[0m **: [34m17:58:32.756[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:146): [1;33mWARNING[0m **: [34m17:58:33.654[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises/3-subshells[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises/3-subshells[00m$ 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises/3-subshells[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises/3-subshells[00m$ gedit Makefile make[K
+cd ~/cs240; ls
+README.md      announce.umt  bin   exams-quizzes  hws	      index.umt  misc	 projects  umt.make
+announce.html  assets	     docs  exercises	  index.html  labs	 online  slides
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises/3-subshells[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises/3-subshells[00m$ cd..
+cd..: command not found
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises/3-subshells[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises/3-subshells[00m$ cd ..
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises[00m$ ^V[Kecho $?
+0
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises[00m$ false; echo 123
+123
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises[00m$ true; echo 123
+123
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises[00m$ false && echo 123
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises[00m$ true && echo 123
+123
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises[00m$ false || echo 123
+123
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises[00m$ true || echo 123
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises[00m$ sleep 5 && echo123[K[K[K 123
+123
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab8/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab8/exercises[00m$ cd ~.[K/i2340[K[K[K40p[Kb
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b[00m$ git branch -l
+[?1h=  lab7[m[m
+* [32mlab8[m[m
+  master[m[m
+  prj1-sol[m[m
+  prj2-sol[m[m
+[K[?1l>]0;ycdjun@DESKTOP-23I9KR1: ~/i240b[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b[00m$ git merge -, 'me[K[K[K[K[Km 'merged m[K[K master' master
+Already up to date.
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b[00m$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> lab8
+
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b[00m$ git add submit/lab8
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b[00m$ git status -s
+[32mA[m  submit/lab8/c-files.lst
+[32mA[m  submit/lab8/exercises/3-subshells/Makefile
+[32mA[m  submit/lab8/lab8.LOG
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b[00m$ git commi[K[K[K[K[K[K[K[K[Kcd [K[K[Kexit
+
+Script done on 2020-03-26 18:02:36-0400
