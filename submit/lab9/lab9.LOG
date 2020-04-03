@@ -1,0 +1,772 @@
+Script started on 2020-04-02 22:22:40-0400
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9[00m$ seq 5
+1
+2
+3
+4
+5
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9[00m$ seq 2 11
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9[00m$ se 2[K[Kq 2 2 11
+2
+4
+6
+8
+10
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9[00m$ seq 11 -2 2
+11
+9
+7
+5
+3
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9[00m$ for x in 22 33 44; do echo $x; done
+22
+33
+44
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9[00m$ for x in `seq 100 -20 0`; do echo $x; done
+100
+80
+60
+40
+20
+0
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9[00m$ for x in 100 80 60 40 20 0; do echo $x; done
+100
+80
+60
+40
+20
+0
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9[00m$ echo $RANDOM
+15836
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9[00m$ for x in `seq 50`; do echo -n " $RANDOM "; done
+ 15888  16038  3370  17421  17974  17203  37  15516  21848  12604  31621  25437  5001  5860  26023  30163  6232  31185  7205  26849  4998  31883  12207  17750  19282  13219  23508  32062  6876  8348  25815  1435  22274  6173  20773  978  10706  23399  6487  23594  6116  8844  26172  8919  7582  5016  2795  27673  32061  27468 ]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9[00m$ cd ew[Kx[K[K[K[K[Kls
+lab9.LOG
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9[00m$ lsfor x in `seq 50`; do echo -n " $RANDOM "; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $RANDOM[Kfor x in 100 80 60 40 20 0; do echo $x; done[2P`seq 100 -20 0`[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P22 33 44[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cseq 11 -2 2[K[1P2 2 11[2P115[Kgedit dlinkseq.hh [6Pcd prj2-sol/ls[Kcd submit/ls[Kcd i240b/ls[Kgit pullbranch -l[5Ppullls[Kcd lab8s[Kgit pushcd submit/ls[Kcd i240b[Kgit pushcd i240b/ls[Kgit checkout[5Pecho $p[1Pp[4Pls/usr/bin/cat /etc/environment[19Pecho $PATHPATH+=:$mynewdir[8Pgit pushPATH+=:$mynewdir[6Pecho $PATH/usr/bin/cat /etc/environmentls[Kecho p$pgit checkoutls[Kcd i240b/[1Pgit push[2Pcd i240bls[Kcd submit/[2Pgit push[4Pcd slab8ls[Kgit pullbranch -l[5Ppullls[Kgit pullbranch -l[5Ppullls[Kcd lab8s[Kgit pushcd submit/ls[Kcd i240b[Kgit pushcd i240b/ls[Kgit checkout[5Pecho $p[1Pp[4Pls/usr/bin/cat /etc/environment[19Pecho $PATHPATH+=:$mynewdir[8Pgit pushecho $PATHPATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games::/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.UbuntuonWindows_1804.2020.5.0_x64__79rhkp1fndgscc:/mnt/c/Users/Yongchan/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.7:/mnt/c/Program Files/Java/jdk-111.0.2/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/Yongchan/AppData/Local/Programs/Python/Pythhon37-32/Scripts/:/mnt/c/Users/Yongchan/AppData/Local/Programs/Python/Python37-32/:/mnt/c/Users/Yon[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $PATH[K
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games::/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.UbuntuonWindows_1804.2020.5.0_x64__79rhkp1fndgscc:/mnt/c/Users/Yongchan/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.7:/mnt/c/Program Files/Java/jdk-111.0.2/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/Yongchan/AppData/Local/Programs/Python/Pythhon37-32/Scripts/:/mnt/c/Users/Yongchan/AppData/Local/Programs/Python/Python37-32/:/mnt/c/Users/Yon[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $PATH[K
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pgit pushecho $PATHPATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games::/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.UbuntuonWindows_1804.2020.5.0_x64__79rhkp1fndgscc:/mnt/c/Users/Yongchan/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.7:/mnt/c/Program Files/Java/jdk-111.0.2/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/Yongchan/AppData/Local/Programs/Python/Pythhon37-32/Scripts/:/mnt/c/Users/Yongchan/AppData/Local/Programs/Python/Python37-32/:/mnt/c/Users/Yon[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $PATH[K
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp[K[1Pp%PATH%[1P$PATHls[KPATH=$pls[Kgit branch -l[1P-lmerge lab8 -m 'merged lab8'[12Pcheckout masterpull[Ksh -u origin lab8commit -a -m 'completing lab8'status -s[K[3Padd -Amerge -m 'merged master' master[17Pscript -a lab8.LOGgit checkout -b lab8[13Pcd[C[C[C[C[C[2P..[2Penvcp -r ~/cs240/labs/lab8/exercises .d lab8[Kls[Krm -r exercises/cd ..[K[3Plscd exercises/p -r ~/cs240/labs/lab8/exercises .mkdir lab8[Kcd ~/i240b/submit/lab8?/submit/lab8[14Pgit pull[Kcd labs/ls[Kcd labs/[1Pgit pullcd ~/i240?/submit/lab8b/submit/lab8[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcp -r ~/cs240/labs/lab9/exercises .
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9[00m$ ls
+[0m[34;42mexercises[0m  lab9.LOG
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9[00m$ cd exercises/
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ ls
+[0m[34;42m2-sorts[0m  [34;42m3-stats[0m  [34;42m4-time[0m  Makefile  [01;32mplot.gp[0m
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ touch ascnee[K[K[Kending.dat
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ for x in 'seq 0 1 100000'; do echo$[K $x >> des[K[K[Kascending.dat; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ echo ace[K[Kscending.dat 
+ascending.dat
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ xmin[K[K[K[Kgedit ascending.dat 
+
+** (gedit:96): [1;33mWARNING[0m **: [34m22:30:57.663[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:96): [1;33mWARNING[0m **: [34m22:30:57.663[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:96): [1;33mWARNING[0m **: [34m22:30:59.684[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ gedit ascending.dat [1Pecho[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor x in 'seq 0 1 100000'; do echo $x >> ascending.dat; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+seq 0 1 100000
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ for x in 'seq 0 1 100000'; do echo $x; done[23Pgedit ascending.dat [1Pecho[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor x in 'seq 0 1 100000'; do echo $x >> ascending.dat; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch ascending.dat[Kls[Kcd exercises/ls[Kcp -r ~/cs240/labs/lab9/exercises .ls[Kfor x in `seq 50`; do echo -n " $RANDOM "; doneecho $RANDOM[Kfor x in `seq 50`; do echo -n " $RANDOM "; done
+ 9229  11936  22516  3913  17465  13066  4699  13675  8847  2868  12747  9614  26942  2060  5488  3200  18494  3165  27905  9019  17364  19082  19517  32493  10694  15268  26019  24402  19848  24331  1509  15896  21556  30908  20315  8583  1123  20971  27678  19290  23461  1164  23993  26688  1446  32588  12967  3885  32638  1094 ]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ for x in `seq 50`; do echo -n " $RANDOM "; done[4P'seq 0 1 100000'; do echo $x[C[C[C[C[C[C[23Pgedit ascending.dat [1Pecho[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor x in 'seq 0 1 100000'; do echo $x >> ascending.dat; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch ascending.dat[Kls[Kcd exercises/ls[Kcp -r ~/cs240/labs/lab9/exercises .ls[Kfor x in `seq 50`; do echo -n " $RANDOM "; doneecho $RANDOM[Kfor x in 100 80 60 40 20 0; do echo $x; done[2P`seq 100 -20 0`[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P22 33 44[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cseq 11 -2 2[K[1P2 2 11[2P115[Kgedit dlinkseq.hh [6Pcd prj2-sol/[K[K[K[K[K[K[K[K[K[K[K[K
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ for x in `seq 50`; do echo -n " $RANDOM "; done[4P'seq 0 1 100000'; do echo $x[C[C[C[C[C[C[23Pgedit ascending.dat [1Pecho[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor x in 'seq 0 1 100000'; do echo $x >> ascending.dat; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch ascending.dat[Kls[Kcd exercises/ls[Kcp -r ~/cs240/labs/lab9/exercises .ls[Kfor x in `seq 50`; do echo -n " $RANDOM "; doneecho $RANDOM[Kfor x in 100 80 60 40 20 0; do echo $x; done[2P`seq 100 -20 0`[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+100
+80
+60
+40
+20
+0
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ for x in `seq 100 -20 0`; do echo $x; done[1P[1P[1P[1@0[C[C[C[C[1P[1P[1P[1@1[C[1@1[C[1@0[C[1@0[C[1@0[C[1@0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@>[1@>[1P[1P[1@ [1@>[1@>[1@ [1@a[1@s[1@c[1@e[1@n[1@d[1@i[1@n[1@g[1@.[1@d[1@a[1@t
+
+^C]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ gedit as
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ gedit ascending.dat 
+^F10000
+** (gedit:141): [1;33mWARNING[0m **: [34m22:34:22.360[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ 10000[K[K[K[K[Kgedit ascending.dat for x in `seq 0 1 100000`; do echo $x >> ascending.dat; done[C[C[40Pgedit ascending.dat for x in `seq 0 1 100000`; do echo $x >> ascending.dat; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18P100 -20 0`; do echo $x[C[C[C[C[C[C[18@0 1 100000`; do echo $x >> ascending.dat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[40Pgedit ascending.dat [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktouch ddes[K[K[Kescending.dat
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ touch descending.datgedit ascending.dat for x in `seq 0 1 100000`; do echo $x >> ascending.dat; done[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@d[1@e[12@scending.dat[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@1[1@0[1@0[1@0[1@0[1@0[1@0[1P[1@ [1@-[1@1[1@ [1@0
+^C
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ for x in `seq 50`; do echo -n " $RANDOM "; done[K[Kne[C[15@100000 -1 0`; do echo $x >> descending.dat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch descending.dat[K[1P.dat[1P.dat[1P.dat[1P.dat[1P.dat[1P.dat[1P.dat[1P.dat[1P.dat[1P.datr.data.datn.datn.datd.dat[1P.dat[1P.datd.dato.datp.datm.dat[1P.dat[1P.datm.dat
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ touch random.datfor x in `seq 100000 -1 0`; do echo $x >> descending.dat; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch random.dat[Kfor x in `seq 100000 -1 0`; do echo $x >> descending.dat; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch descending.dat[Kfor x in `seq 100000 -1 0`; do echo $x >> descending.dat; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch random.dat[K[Ktouch random.datfor x in `seq 100000 -1 0`; do echo $x >> descending.dat; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch descending.dat[Kgedit ascending.dat for x in `seq 0 1 100000`; do echo $x >> ascending.dat; done[18P100 -20 0`; do echo $x[C[C[C[C[C[C[5@50`; do echo -n " $RANDOM "[C[C[C[C[C[C[4P'seq 0 1 100000'; do echo $x[C[C[C[C[C[C[23Pgedit ascending.dat [1Pecho[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor x in 'seq 0 1 100000'; do echo $x >> ascending.dat; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch ascending.dat[Kls[Kcd exercises/ls[Kcp -r ~/cs240/labs/lab9/exercises .ls[Kfor x in `seq 50`; do echo -n " $RANDOM "; doneecho $RANDOM[Kfor x in `seq 50`; do echo -n " $RANDOM "; done[1@=[1@=[1P[1P[1P[1P[1@1[1@0[1@0[1@0[1@0[1@0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@.[1@.[1P[1P[1@ [1@>[1@>[1@ [1@r[1@a[1@n[1@d[1@o[5@m.dat
+^C
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ gedit random.dat 
+^C
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ gedit random.dat 
+^C
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ gedit random.dat for x in `seq 100000`; do echo -n " $RANDOM " >> random.dat; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit random.dat [K[K[K[K[K[K[K[K[K[K[K[Kdescending.dat 
+
+** (gedit:177): [1;33mWARNING[0m **: [34m22:36:55.640[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ e[Kcd 12[K[K2-sorts/
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/2-sorts[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/2-sorts[00m$ make[K[K[K[Kls
+main.cc  sorts.cc  sorts.hh
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/2-sorts[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/2-sorts[00m$ make
+make: *** No targets specified and no makefile found.  Stop.
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/2-sorts[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/2-sorts[00m$ make -f ../Makefile
+g++ -MT sorts.o -MMD -MP -MF .deps/sorts.d -g -Wall -std=c++17 -c sorts.cc
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ sorts.o main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main sorts.o main.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/2-sorts[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/2-sorts[00m$ ./main 
+usage: ./main [-v] ALGORITHM INTS_DATA_FILE|- [N...]
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/2-sorts[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/2-sorts[00m$ seq 100 -8 0 | ./main -v insertionSort -
+4 12 20 28 36 44 52 60 68 76 84 92 100 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/2-sorts[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/2-sorts[00m$ echo $RANDOM $RANDOM $RANDOM $RANDOM \
+>     | ./main -v mergeSort -
+7027 11865 15785 31967 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/2-sorts[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/2-sorts[00m$ seq 100 -4 0 | ./main -v selectionSort - 4 7
+88 92 96 100 
+60 64 68 72 76 80 84 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/2-sorts[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/2-sorts[00m$ seq 100 -4 0 | ./main -v bubbleSort - 4 7
+88 92 96 100 
+60 64 68 72 76 80 84 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/2-sorts[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/2-sorts[00m$ seq 100 -4 0 | ./main  bubbleSort - 4 7
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/2-sorts[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/2-sorts[00m$ alg0="insertionSort bubbleSort selectionSort"
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/2-sorts[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/2-sorts[00m$ alg1="mergeSort quickSort"
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/2-sorts[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/2-sorts[00m$ for a in $alg0 $alg1; do \
+>     echo "*** $a"; \
+>     time ./main $a ../random.dat 10000; \
+>   done
+*** insertionSort
+
+real	0m0.137s
+user	0m0.141s
+sys	0m0.000s
+*** bubbleSort
+
+real	0m0.286s
+user	0m0.281s
+sys	0m0.000s
+*** selectionSort
+
+real	0m0.115s
+user	0m0.109s
+sys	0m0.000s
+*** mergeSort
+
+real	0m0.009s
+user	0m0.000s
+sys	0m0.016s
+*** quickSort
+
+real	0m0.009s
+user	0m0.000s
+sys	0m0.000s
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/2-sorts[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/2-sorts[00m$ cd ..
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ cd 34[K[K3-stats/
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ ls
+main.cc  ops.cc  ops.hh  sorts.cc  sorts.hh
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ touch counter.hh
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ gedit ops.[K.hh counter.hh &
+[1] 231
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ 
+** (gedit:231): [1;33mWARNING[0m **: [34m22:44:14.834[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:231): [1;33mWARNING[0m **: [34m22:44:14.836[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:231): [1;33mWARNING[0m **: [34m22:44:18.945[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+** (gedit:231): [1;33mWARNING[0m **: [34m22:44:18.955[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit ops.hh counter.hh
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ ls
+counter.hh  main.cc  ops.cc  ops.hh  sorts.cc  sorts.hh
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ lsgedit ops.hh counter.hh &[9Ptouch counter.hhls[Kcd 3-stats/..[Kfor a in $alg0 $alg1; do     echo "*** $a";     time ./mainn $a ../random.dat 10000;   done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [32Palg1="mergeSort quickSort"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0="insertionSort bubbleSort selectionSort"[6Pseq 100 -4 0 | ./main  bubbleSort - 4 7[2@-v[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@selection[C[C[C[C[C[C[C[C[C[Cecho $RANDOM $RANDOM $RANDOM $RANDOM     | ./main -v mergeSSort -[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [18Pseq 100 -8 0 | ./main -v insertionSort -
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./main [Kmake -f ../Makefile[K -f ../Makefile
+g++ -MT sorts.o -MMD -MP -MF .deps/sorts.d -g -Wall -std=c++17 -c sorts.cc
+g++ -MT ops.o -MMD -MP -MF .deps/ops.d -g -Wall -std=c++17 -c ops.cc
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ sorts.o ops.o main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main sorts.o ops.o main.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ ./main quickSort ../random.dat `seq 10000 10000 100000
+> ^C
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ ./[K[Kgedit main.cc &
+[1] 260
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ 
+** (gedit:260): [1;33mWARNING[0m **: [34m22:47:03.303[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:260): [1;33mWARNING[0m **: [34m22:47:03.304[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:260): [1;33mWARNING[0m **: [34m22:47:15.049[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:260): [1;33mWARNING[0m **: [34m22:47:15.050[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:260): [1;33mWARNING[0m **: [34m22:47:17.061[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit main.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ gedit main.cc &./main quickSort ../random.dat `seq 10000 10000 100000[35Pmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:121:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kops[m[K’ was not declared in this scope
+       std::cout<<nRead<<"  " << [01;31m[Kops[m[K.compc << "  " <<ops.swapc<<std::endl;
+                                 [01;31m[K^~~[m[K
+[01m[Kmain.cc:121:33:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KOps[m[K’
+       std::cout<<nRead<<"  " << [01;36m[Kops[m[K.compc << "  " <<ops.swapc<<std::endl;
+                                 [01;36m[K^~~[m[K
+                                 [32m[KOps[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ make -f ../Makefile[4Pgedit main.cc &
+[1] 271
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ 
+** (gedit:271): [1;33mWARNING[0m **: [34m22:48:04.421[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:271): [1;33mWARNING[0m **: [34m22:48:04.422[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:271): [1;33mWARNING[0m **: [34m22:48:06.809[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit main.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ gedit main.cc &make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:121:36:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+       std::cout<<nRead<<"  " << Ops[01;31m[K.[m[Kcompc << "  " <<Ops.swapc<<std::endl;
+                                    [01;31m[K^[m[K
+[01m[Kmain.cc:121:56:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+       std::cout<<nRead<<"  " << Ops.compc << "  " <<Ops[01;31m[K.[m[Kswapc<<std::endl;
+                                                        [01;31m[K^[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ make -f ../Makefile[4Pgedit main.cc &
+[1] 282
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ 
+** (gedit:282): [1;33mWARNING[0m **: [34m22:49:41.178[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:282): [1;33mWARNING[0m **: [34m22:49:41.178[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:282): [1;33mWARNING[0m **: [34m22:49:42.984[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit main.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ gedit main.cc &make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(SortP, std::__cxx11::string, bool, int)[m[K’:
+[01m[Kmain.cc:98:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ops[m[K’ has no member named ‘[01m[KcompCount[m[K’
+   std::cout << n << "\t" << ops.[01;31m[KcompCount[m[K << "\t" << ops.swapCount << std::endl;
+                                 [01;31m[K^~~~~~~~~[m[K
+[01m[Kmain.cc:98:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ops[m[K’ has no member named ‘[01m[KswapCount[m[K’
+   std::cout << n << "\t" << ops.compCount << "\t" << ops.[01;31m[KswapCount[m[K << std::endl;
+                                                          [01;31m[K^~~~~~~~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(SortP, std::__cxx11::string, bool, int)[m[K’:
+[01m[Kmain.cc:98:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ops[m[K’ has no member named ‘[01m[KcompCount[m[K’
+   std::cout << n << "\t" << ops.[01;31m[KcompCount[m[K << "\t" << ops.swapCount << std::endl;
+                                 [01;31m[K^~~~~~~~~[m[K
+[01m[Kmain.cc:98:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ops[m[K’ has no member named ‘[01m[KswapCount[m[K’
+   std::cout << n << "\t" << ops.compCount << "\t" << ops.[01;31m[KswapCount[m[K << std::endl;
+                                                          [01;31m[K^~~~~~~~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ make -f ../Makefile[4Pgedit main.cc &
+[1] 296
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ 
+** (gedit:296): [1;33mWARNING[0m **: [34m22:54:40.381[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:296): [1;33mWARNING[0m **: [34m22:54:40.382[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:296): [1;33mWARNING[0m **: [34m22:54:43.879[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit main.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ gedit main.cc &make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(SortP, std::__cxx11::string, bool, int)[m[K’:
+[01m[Kmain.cc:98:18:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [2][m[K’ and ‘[01m[Kconst char [2][m[K’ to binary ‘[01m[Koperator+[m[K’
+   std::cout<<[01;31m[K"n" + "\t"[m[K + "compares" + "\t"  + "swaps"<<std::endl;
+              [01;31m[K~~~~^~~~~~[m[K
+[01m[Kmain.cc:99:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ops[m[K’ has no member named ‘[01m[Kcompc[m[K’; did you mean ‘[01m[Kcompare[m[K’?
+   std::cout << n << "\t" << ops.[01;31m[Kcompc[m[K << "\t" << ops.swapc << std::endl;
+                                 [01;31m[K^~~~~[m[K
+                                 [32m[Kcompare[m[K
+[01m[Kmain.cc:99:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ops[m[K’ has no member named ‘[01m[Kswapc[m[K’; did you mean ‘[01m[Kswap[m[K’?
+   std::cout << n << "\t" << ops.compc << "\t" << ops.[01;31m[Kswapc[m[K << std::endl;
+                                                      [01;31m[K^~~~~[m[K
+                                                      [32m[Kswap[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ make -f ../Makefile[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &./main quickSort ../random.dat `seq 10000 10000 100000[35Pmake -f ../Makefilels[Kgedit ops.hh counter.hh &
+[1] 307
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ 
+** (gedit:307): [1;33mWARNING[0m **: [34m22:55:27.328[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+** (gedit:307): [1;33mWARNING[0m **: [34m22:55:27.336[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit ops.hh counter.hh
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ gedit ops.hh counter.hh &[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktouch ops.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ gedit ops..[Kcc
+
+** (gedit:317): [1;33mWARNING[0m **: [34m22:55:41.207[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ gedit ops.cctouch[C[C[C[C[C[C[Cgedit ops.hh counter.hh &[6Pmake -f ../Makefile[4Pgedit main.cc &
+[1] 324
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ 
+** (gedit:324): [1;33mWARNING[0m **: [34m22:56:08.270[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:324): [1;33mWARNING[0m **: [34m22:56:08.270[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:324): [1;33mWARNING[0m **: [34m22:56:09.959[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit main.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ gedit main.cc &[3Pops.cctouch[C[C[C[C[C[C[Cgedit ops.hh counter.hh &[6Pmake -f ../Makefile
+g++ -MT ops.o -MMD -MP -MF .deps/ops.d -g -Wall -std=c++17 -c ops.cc
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(SortP, std::__cxx11::string, bool, int)[m[K’:
+[01m[Kmain.cc:99:18:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [2][m[K’ and ‘[01m[Kconst char [2][m[K’ to binary ‘[01m[Koperator+[m[K’
+   std::cout<<[01;31m[K"n" + "\t"[m[K + "compares" + "\t"  + "swaps"<<std::endl;
+              [01;31m[K~~~~^~~~~~[m[K
+[01m[Kmain.cc:100:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ops[m[K’ has no member named ‘[01m[Kcompc[m[K’; did you mean ‘[01m[Kcompare[m[K’?
+   std::cout << n << "\t" << ops.[01;31m[Kcompc[m[K << "\t" << ops.swapc << std::endl;
+                                 [01;31m[K^~~~~[m[K
+                                 [32m[Kcompare[m[K
+[01m[Kmain.cc:100:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ops[m[K’ has no member named ‘[01m[Kswapc[m[K’; did you mean ‘[01m[Kswap[m[K’?
+   std::cout << n << "\t" << ops.compc << "\t" << ops.[01;31m[Kswapc[m[K << std::endl;
+                                                      [01;31m[K^~~~~[m[K
+                                                      [32m[Kswap[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ make -f ../Makefile[4Pgedit main.cc &
+[1] 337
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ 
+** (gedit:337): [1;33mWARNING[0m **: [34m22:57:36.357[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:337): [1;33mWARNING[0m **: [34m22:57:36.358[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:337): [1;33mWARNING[0m **: [34m22:57:37.948[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit main.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ gedit main.cc &make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(SortP, std::__cxx11::string, bool, int)[m[K’:
+[01m[Kmain.cc:100:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ops[m[K’ has no member named ‘[01m[Kcompc[m[K’; did you mean ‘[01m[Kcompare[m[K’?
+   std::cout << n << "\t" << ops.[01;31m[Kcompc[m[K << "\t" << ops.swapc << std::endl;
+                                 [01;31m[K^~~~~[m[K
+                                 [32m[Kcompare[m[K
+[01m[Kmain.cc:100:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ops[m[K’ has no member named ‘[01m[Kswapc[m[K’; did you mean ‘[01m[Kswap[m[K’?
+   std::cout << n << "\t" << ops.compc << "\t" << ops.[01;31m[Kswapc[m[K << std::endl;
+                                                      [01;31m[K^~~~~[m[K
+                                                      [32m[Kswap[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ make -f ../Makefile[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &[3Pops.cctouch[C[C[C[C[C[C[Cgedit ops.hh counter.hh &[13Ptouch ops.ccgedit[C[C[C[C[C[C[C
+\
+** (gedit:348): [1;33mWARNING[0m **: [34m22:58:52.400[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ \[Kgedit ops.ccmake -f ../Makefile[4Pgedit main.cc &
+[1] 356
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ 
+** (gedit:356): [1;33mWARNING[0m **: [34m22:59:21.819[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:356): [1;33mWARNING[0m **: [34m22:59:21.819[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:356): [1;33mWARNING[0m **: [34m22:59:23.935[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit main.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ gedit main.cc &[3Pops.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(SortP, std::__cxx11::string, bool, int)[m[K’:
+[01m[Kmain.cc:101:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ops[m[K’ has no member named ‘[01m[Kcompc[m[K’; did you mean ‘[01m[Kcompare[m[K’?
+   std::cout << n << "\t" << ops.[01;31m[Kcompc[m[K << "\t" << ops.swapc << std::endl;
+                                 [01;31m[K^~~~~[m[K
+                                 [32m[Kcompare[m[K
+[01m[Kmain.cc:101:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ops[m[K’ has no member named ‘[01m[Kswapc[m[K’; did you mean ‘[01m[Kswap[m[K’?
+   std::cout << n << "\t" << ops.compc << "\t" << ops.[01;31m[Kswapc[m[K << std::endl;
+                                                      [01;31m[K^~~~~[m[K
+                                                      [32m[Kswap[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ make -f ../Makefile[4Pgedit main.cc &
+[1] 367
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ 
+** (gedit:367): [1;33mWARNING[0m **: [34m23:00:33.118[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:367): [1;33mWARNING[0m **: [34m23:00:33.118[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+[1]+  Done                    gedit main.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ gedit main.cc &make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ sorts.o ops.o main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main sorts.o ops.o main.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ make -f ../Makefile[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &[3Pops.ccmake -f ../Makefile[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &[3Pops.cctouch[C[C[C[C[C[C[Cgedit ops.hh counter.hh &[6Pmake -f ../Makefile[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &./main quickSort ../random.dat `seq 10000 10000 100000[35Pmake -f ../Makefile./main quickSort ../random.dat `seq 10000 10000 100000
+> 2
+> 4
+> 23
+> ^C
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ ./main quickSort ../random.dat `seq 10000 10000 100000
+2
+4
+23[A[A[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [35Pmake -f ../Makefile
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &
+[1] 386
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ 
+** (gedit:386): [1;33mWARNING[0m **: [34m23:02:06.515[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:386): [1;33mWARNING[0m **: [34m23:02:06.516[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+[1]+  Done                    gedit main.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ gedit main.cc &./main quickSort ../random.dat `seq 10000 10000 100000
+2
+4
+23[A[A[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [35Pmake -f ../Makefile
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:124:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope
+       std::cout << [01;31m[Kn[m[K << "\t" << ops.compc << "\t" << ops.swapc << std::endl;
+                    [01;31m[K^[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ make -f ../Makefile[4Pgedit main.cc &
+[1] 397
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ 
+** (gedit:397): [1;33mWARNING[0m **: [34m23:02:41.075[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:397): [1;33mWARNING[0m **: [34m23:02:41.076[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:397): [1;33mWARNING[0m **: [34m23:02:44.670[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit main.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ gedit main.cc &make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ sorts.o ops.o main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main sorts.o ops.o main.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ make -f ../Makefile[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &./main quickSort ../random.dat `seq 10000 10000 100000
+2
+4
+23
+> ^C
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ ./main quickSort ../random.dat `seq 10000 10000 100000
+2
+4
+23^C
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ for f in `seq 100000`; do echo $f; done > ../ascending.dat [A
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ ./main insertionSort ../ascending.dat `seq 2000 2000 10000``
+n	compares	swaps
+2000	1999	0
+4000	5998	0
+6000	11997	0
+8000	19996	0
+10000	29995	0
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ for a in $alg0; do \
+>     ./main $a ../random.dat `seq 1000 1000 10000` > $a.dat; \
+>   done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ for a in $alg1; do \
+>     ./main $a ../random.dat `seq 10000 10000 100000` > $a.dat; \
+>   done
+got eof on while reading ../random.dat after reading 34383 ints; expected 40000
+got eof on while reading ../random.dat after reading 34383 ints; expected 40000
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ for a in $alg1; do \
+>     ./main $a ../random.dat `seq 10000 10000 100000` > $a.dat; \
+>   done
+got eof on while reading ../random.dat after reading 34383 ints; expected 40000
+got eof on while reading ../random.dat after reading 34383 ints; expected 40000
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ xs[K[Kcd ..
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$  cd .[K[K[K[K[Kcd ..for a in $alg1; do     ./main $a ../random.dat `seq 10000 10000 1000000` > $a.dat;   done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C0; do     ./main $a ../random.dat `seq 1000 1000 10000[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ [7P./main insertionSort ../ascending.dat `seq 2000 2000 10000`
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pfor f in `seq 100000`; do echo $f; done > ../ascending.dat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P./main quickSort ../random.dat `seq 10000 10000 100000
+2
+4
+23[A[A[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ [35Pmake -f ../Makefile
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &./main quickSort ../random.dat `seq 10000 10000 100000
+2
+4
+23[A[A[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ [35Pmake -f ../Makefile
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &[3Pops.ccmake -f ../Makefile[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &[3Pops.cctouch[C[C[C[C[C[C[Cgedit ops.hh counter.hh &[6Pmake -f ../Makefile[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &./main quickSort ../random.dat `seq 10000 10000 100000[35Pmake -f ../Makefilels[Kgedit ops.hh counter.hh &[9Ptouch counter.hhls[Kcd 3-stats/..[Kfor a in $alg0 $alg1; do     echo "*** $a";     time ./main $a ../rrandom.dat 10000;   done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ [40Palg1="mergeSort quickSort"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0="insertionSort bubbleSort selectionSort"[6Pseq 100 -4 0 | ./main  bubbleSort - 4 7[2@-v[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@selection[C[C[C[C[C[C[C[C[C[Cecho $RANDOM $RANDOM $RANDOM $RANDOM     | ./main -v mergeSort -[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pseq 100 -8 0 | ./main -v insertion[C[C[C[C[C[C./main [Kmake -f ../Makefile[K -f ../Makefile[12P./main seq 100 -8 0 | ./main -v insertionSort -./main [Kmake -f ../Makefile[K[2Plscd 2-sorts/gedit descending.dat [4Prandom[C[C[C[C[Cfor x in `seq 100000`; do echo -n " $RANDOM " >> random.dat; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch random.dat[Kfor x in `seq 100000 -1 0`; do echo $x >> descending.dat; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch random.dat[Kfor x in `seq 100000`; do echo -n " $RANDOM " >> random.dat; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ for x in `seq 100000`; do echo -n " $RANDOM " >> random.dat; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[K[K4[K3-stats/
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ cd 3-stats/for x in `seq 100000`; do echo -n " $RANDOM " >> random.datt; done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor a in $alg1; do     ./main $a ../random.dat `seq 10000 110000 100000` > $a.dat;   done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor x in `seq 100000`; do echo -n " $RANDOM " >> random.datt; done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ cd 3-stats/[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd 3-stats/for x in `seq 100000`; do echo -n " $RANDOM " >> random.datt; done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor a in $alg1; do     ./main $a ../random.dat `seq 10000 110000 100000` > $a.dat;   done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C0; do     ./main $a ../random.dat `seq 1000 10[C[C[3P 1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ ./main insertionSort ../ascending.dat `seq 2000 2000 10000`[K[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ for f in `seq 100000`; do echo $f; done > ../ascending.dat [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P./main quickSort ../random.dat `seq 10000 10000 100000
+2
+4
+23[A[A[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [35Pmake -f ../Makefile
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pgedit main.cc &make -f ../Makefile[4Pgedit main.cc &make -f ../Makefile./main quickSort ../random.dat `seq 10000 10000 100000
+2
+4
+23[A[A[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ for f in `seq 100000`; do echo $f; done > ../ascending.dat [K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./main insertionSort ../ascending.dat `seq 2000 2000 10000``[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ for a in $alg0; do     ./main $a ../random.dat `seq 1000 1000 10000` > $a.dat;   done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C1; do     ./main $a ../random.dat `seq 10000 1[C[C[3@00 10[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C0; do     ./main $a ../random.dat `seq 1000 10[C[C[3P 1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ for a in $alg0; do     ./main $a ../random.dat `seq 1000 10000 10000` > $a.dat;   done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ cd 3-stats/[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor x in `seq 100000`; do echo -n " $RANDOM " >> random.datt; done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor a in $alg1; do     ./main $a ../random.dat `seq 10000 110000 100000` > $a.dat;   done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ for a in $alg0 $alg1; do ../plot.gp $a.dat > $a.png; done
+bash: ../plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+bash: ../plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+bash: ../plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+bash: ../plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+bash: ../plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ for a in $alg0 $alg1; do ../plot.gp $a.dat > $a.png; done
+bash: ../plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+bash: ../plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+bash: ../plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+bash: ../plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+bash: ../plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ cd ..
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ ;s[K[Kls
+[0m[34;42m2-sorts[0m  [34;42m3-stats[0m  [34;42m4-time[0m  Makefile  ascending.dat  descending.dat  [01;32mplot.gp[0m  random.dat
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ lscd ..for a in $alg0 $alg1; do ../plot.gp $a.dat > $a.png; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kfor a in $alg0 $alg1; do ../plot.gp $a.dat > $a.png; done1; do     ./main $a ../random.dat `seq 10000 10000 1000000` > $a.dat;   done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C0; do     ./main $a ../random.dat `seq 1000 1000 10000[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ cd 3-stats/[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor x in `seq 100000`; do echo -n " $RANDOM " >> random.dat; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd 3-stats/[K
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ cd 3-stats/ls[Kcd ..for a in $alg0 $alg1; do ../plot.gp $a.dat > $a.png; done[C[1P[1P[C[1P
+plot.gp: command not found
+plot.gp: command not found
+plot.gp: command not found
+plot.gp: command not found
+plot.gp: command not found
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ for a in $alg0 $alg1; do plot.gp $a.dat > $a.png; done[C[1@.[1@.[1@~[1P[1P[1P[1@~[1@?[1P[1@/[1@i2plot.gp $a.dat > $a.png; done [A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4plot.gp $a.dat > $a.png; donee[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0b/plot.gp $a.dat > $a.png; done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csplot.gp $a.dat > $a.png; done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cubmit/plot.gp $a.dat > $a.png; done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clplot.gp $a.dat > $[1@a[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Caplot.gp $a.dat > [1@$[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C9plot.gp $a.dat >[1@ [A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cplot.gp $a.dat > [1P[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbplot.gp $a.dat >[1@ [A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C9plot.gp $a.dat [1@>[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/plot.gp $a.dat[1@ [A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ceplot.gp $a.da[1@t[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cxercises/plot[9@.gp $a.da[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+bash: /home/ycdjun/i240b/submit/lab9/exercises/plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+bash: /home/ycdjun/i240b/submit/lab9/exercises/plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+bash: /home/ycdjun/i240b/submit/lab9/exercises/plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+bash: /home/ycdjun/i240b/submit/lab9/exercises/plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+bash: /home/ycdjun/i240b/submit/lab9/exercises/plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ for a in $alg0 $alg1; do ../plot.gp $a.dat > $a.png; done
+bash: ../plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+bash: ../plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+bash: ../plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+bash: ../plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+bash: ../plot.gp: /usr/bin/gnuplot: bad interpreter: No such file or directory
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/3-stats[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/3-stats[00m$ cd ..
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ ls
+[0m[34;42m2-sorts[0m  [34;42m3-stats[0m  [34;42m4-time[0m  Makefile  ascending.dat  descending.dat  [01;32mplot.gp[0m  random.dat
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ cd 4-time/
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ ls
+now.cc  now.hh
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ cd [K[K[Ktouch main.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ echo ~/i[K[K[K,..[K[K[K../24[K-sorts/mainc[K.cc >> main.cc 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ ls
+main.cc  now.cc  now.hh
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ echo[K[K[K[Kgedit main.cc 
+
+** (gedit:524): [1;33mWARNING[0m **: [34m23:12:21.089[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:524): [1;33mWARNING[0m **: [34m23:12:21.089[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ rm -r main.cc 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ cp -r ../w[K2-sorts/main.cc
+cp: missing destination file operand after '../2-sorts/main.cc'
+Try 'cp --help' for more information.
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ l[Kcp -r ../2-sorts/main.cc ./[K[K4[K..~/[K[K[K[K~/4[Ki240b/submit/4[Klab9/4[Kexercises/4-timme/
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ ls
+main.cc  now.cc  now.hh
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ cd [K[K[Kgei[Kdit main.cc 
+
+** (gedit:567): [1;33mWARNING[0m **: [34m23:13:32.046[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ m[Krm -r main.cc 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ cp -r ~?i24[K[K[K[K/i240b/submit/lab9/exercises/2-sorts/main.cc ~/i240b//submit/lab9/exercises/4-time/
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ ls
+main.cc  now.cc  now.hh
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ gedit main.cc 
+
+** (gedit:608): [1;33mWARNING[0m **: [34m23:14:25.932[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ rm -r main.cc 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ g[Ktouch r[Kmain.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ cd ..
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ cd 2-sorts/
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/2-sorts[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/2-sorts[00m$ ls
+[0m[01;32mmain[0m  main.cc  main.o  sorts.cc  sorts.hh  sorts.o
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/2-sorts[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/2-sorts[00m$ gedit main[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ cd 4-time/
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ rm 0[K-r nm[K[Know.[K[K[K[K[K main.cc 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ cp -r [K[K[K[K[K[Krm -r main.cc [4Pcd 4-time/..[K[3Plscd 2-sorts/..[Ktouch main.ccrm -r main.cc gedit[C[C[C[C[C[C[C[C[Cls[Kgedit main.cc rm -r[C[C[C[C[C[C[C[C[C[1Ptouch main.cc[8Pcd ..touch main.ccrm -r main.cc gedit[C[C[C[C[C[C[C[C[Cls[Kcp -r ~/i240b/submit/lab9/exercises/2-sorts/main.cc ~/i240b//submit/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ rm -r main.cc [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp -r ~/i240b/submit/lab9/exercises/2-sorts/main.cc ~/i240b//submit/lab9/exercises/4-time/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/main.cc ~/i240b/s[1Pubmit/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/main.cc ~/i240b/su[1Pbmit/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/main.cc ~/i240b/sub[1Pmit/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/main.cc ~/i240b/subm[1Pit/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/main.cc ~/i240b/submi[1Pt/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/main.cc ~/i240b/submit[1P/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/main.cc ~/i240b/submit/[1Plab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3/main.cc ~/i240b/submit/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-stats/main.cc ~/i240b/submit/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ gedit main.cc in[K[K
+
+** (gedit:638): [1;33mWARNING[0m **: [34m23:15:28.240[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ rm -r main.cc 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ rm -r main.cc gedit[C[C[C[C[C[C[C[C[Ccp -r ~/i240b/submit/lab9/exercises/3-stats/main.cc ~/i240b//submit/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ rm -r main.cc [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pcd 4-time/..[K[3Plscd 2-sorts/..[Ktouch main.ccrm -r main.cc gedit[C[C[C[C[C[C[C[C[Cls[Kcp -r ~/i240b/submit/lab9/exercises/2-sorts/main.cc ~/i240b//submit/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ rm -r main.cc [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit[C[C[C[C[C[C[C[C[Cls[Kcp -r ../2-sorts/main.cc ~/i240b/submit/lab9/exercises/4-timme/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ~/i240b/submit/lab9/exercises/4-timme/
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ gedit main.cc &
+[1] 651
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ 
+** (gedit:651): [1;33mWARNING[0m **: [34m23:18:54.922[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:651): [1;33mWARNING[0m **: [34m23:18:54.923[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:651): [1;33mWARNING[0m **: [34m23:18:57.293[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit main.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ gedit main.cc &cp -r ../2-sorts/main.cc ~/i240b/submit/lab9/exercises/4-timme/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ rm -r main.cc [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit[C[C[C[C[C[C[C[C[Ccp -r ~/i240b/submit/lab9/exercises/3-stats/main.cc ~/i240b//submit/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ rm -r main.cc [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pcd 4-time/..[K[3Plscd 2-sorts/..[Ktouch main.ccrm -r main.cc gedit[C[C[C[C[C[C[C[C[Cls[Kcp -r ~/i240b/submit/lab9/exercises/2-sorts/main.cc ~/i240b//submit/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ rm -r main.cc [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit[C[C[C[C[C[C[C[C[Cls[Kcp -r ../2-sorts/main.cc ~/i240b/submit/lab9/exercises/4-timme/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Prm -r main.cc gedit[C[C[C[C[C[C[C[C[Cls[Kecho ../2-sorts/main.cc >> main.cc [22Ptouch main.ccls[Kcd 4-time/ls[Kcd ..for a in $alg0 $alg1; do ../plot.gp $a.dat > $a.png; done~/i240b/submit/lab9/exercises/plot..gp $a.dat > $a.png; done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pplot.gp $a.dat > $a.png; done
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd 3-stats/[Kls[Kcd ..for a in $alg0 $alg1; do ../plot.gp $a.dat > $a.png; done1; do     ./main $a ../random.dat `seq 10000 100000 100000` > $a.dat;   done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C0; do     ./main $a ../random.dat `seq 1000 100[C[3P 1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ cd 3-stats/[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor x in `seq 100000`; do echo -n " $RANDOM " >> random.dat;; done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor a in $alg1; do     ./main $a ../random.dat `seq 10000 100000 100000` > $a.dat;   done[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C0; do     ./main $a ../random.dat `seq 1000 100[C[3P 1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ ./main insertionSort ../ascending.dat `seq 2000 2000 10000` [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pfor f in `seq 100000`; do echo $f; done > ../ascending.dat
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P./main quickSort ../random.dat `seq 10000 10000 100000
+2
+4
+23[A[A[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [35Pmake -f ../Makefile
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pgedit main.cc &make -f ../Makefile
+g++ -MT now.o -MMD -MP -MF .deps/now.d -g -Wall -std=c++17 -c now.cc
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:9:10:[m[K [01;31m[Kfatal error: [m[Ksorts.hh: No such file or directory
+ #include [01;31m[K"sorts.hh"[m[K
+          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ make -f ../Makefile[4Pgedit main.cc &cp -r ../2-sorts/main.cc ~/i240b/submit/lab9/exercises/4-timme/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ rm -r main.cc [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp -r ../2-sorts/main.cc ~/i240b/submit/lab9/exercises/4-timme/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ~/i240b/submit/lab9/exercises/4-time[1P/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ~/i240b/submit/lab9/exercises/4-time/[K[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ~/i240b/submit/lab9/exercises/4-time/ [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ~/i240b/submit/lab9/exercises/4-time/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ~/i240b/submit/lab9/exercises/4-time/[1P ~/i240b/submit/lab9/exercises/4-time/[1P ~/i240b/submit/lab9/exercises/4-time/s ~/i240b/submit/lab9/exercises/4-time/o ~/i240b/submit/lab9/exercises/4-time/r ~/i240b/submit/lab9/exercises/4-time/ts. ~/i240b/submit/lab9/exercises/4-timee/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch ~/i240b/submit/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch ~/i240b/submit/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ cp -r ../2-sorts/sorts.hh ~/i240b/submit/lab9/exercises/4-tiime/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ~/i240b/submit/lab9/exercises/4-tim[1Pe/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ~/i240b/submit/lab9/exercises/4-time[1P/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc ~/i240b/submit/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc ~/i240b/submit/lab9/exercises/4-time/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ cp -r ../2-sorts/sorts.cc ~/i240b/submit/lab9/exercises/4-tiime/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chh
+[C[C[C[C[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ make -f ../Makefile[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+g++ -MT sorts.o -MMD -MP -MF .deps/sorts.d -g -Wall -std=c++17 -c sorts.cc
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(SortP, std::__cxx11::string, bool, int)[m[K’:
+[01m[Kmain.cc:95:13:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ was not declared in this scope
+   long t0 = [01;31m[Know[m[K();
+             [01;31m[K^~~[m[K
+[01m[Kmain.cc:95:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt0[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   long [01;35m[Kt0[m[K = now();
+        [01;35m[K^~[m[K
+[01m[Kmain.cc:97:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   long [01;35m[Kt1[m[K = now();
+        [01;35m[K^~[m[K
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:122:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kt1[m[K’ was not declared in this scope
+       std::cout<<nRead << "\t" << [01;31m[Kt1[m[K-t0<<std::endl;
+                                   [01;31m[K^~[m[K
+[01m[Kmain.cc:122:35:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktm[m[K’
+       std::cout<<nRead << "\t" << [01;36m[Kt1[m[K-t0<<std::endl;
+                                   [01;36m[K^~[m[K
+                                   [32m[Ktm[m[K
+[01m[Kmain.cc:122:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kt0[m[K’ was not declared in this scope
+       std::cout<<nRead << "\t" << t1-[01;31m[Kt0[m[K<<std::endl;
+                                      [01;31m[K^~[m[K
+[01m[Kmain.cc:122:38:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktm[m[K’
+       std::cout<<nRead << "\t" << t1-[01;36m[Kt0[m[K<<std::endl;
+                                      [01;36m[K^~[m[K
+                                      [32m[Ktm[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ make -f ../Makefilecp -r ../2-sorts/sorts.cc ~/i240b/submit/lab9/exercises/4-tiime/[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chh
+[C[C[C[C[A]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ make -f ../Makefile[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pgedit main.cc &
+[1] 676
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ 
+** (gedit:676): [1;33mWARNING[0m **: [34m23:20:05.098[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:676): [1;33mWARNING[0m **: [34m23:20:05.099[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:676): [1;33mWARNING[0m **: [34m23:20:06.817[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit main.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ gedit main.cc &make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(SortP, std::__cxx11::string, bool, int)[m[K’:
+[01m[Kmain.cc:96:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt0[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   long [01;35m[Kt0[m[K = now();
+        [01;35m[K^~[m[K
+[01m[Kmain.cc:98:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   long [01;35m[Kt1[m[K = now();
+        [01;35m[K^~[m[K
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:123:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kt1[m[K’ was not declared in this scope
+       std::cout<<nRead << "\t" << [01;31m[Kt1[m[K-t0<<std::endl;
+                                   [01;31m[K^~[m[K
+[01m[Kmain.cc:123:35:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktm[m[K’
+       std::cout<<nRead << "\t" << [01;36m[Kt1[m[K-t0<<std::endl;
+                                   [01;36m[K^~[m[K
+                                   [32m[Ktm[m[K
+[01m[Kmain.cc:123:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kt0[m[K’ was not declared in this scope
+       std::cout<<nRead << "\t" << t1-[01;31m[Kt0[m[K<<std::endl;
+                                      [01;31m[K^~[m[K
+[01m[Kmain.cc:123:38:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktm[m[K’
+       std::cout<<nRead << "\t" << t1-[01;36m[Kt0[m[K<<std::endl;
+                                      [01;36m[K^~[m[K
+                                      [32m[Ktm[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ ls
+main.cc  now.cc  now.hh  now.o  sorts.cc  sorts.hh  sorts.o
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$  lsmake -f ../Makefile[4Pgedit main.cc &
+[1] 687
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ 
+** (gedit:687): [1;33mWARNING[0m **: [34m23:23:24.365[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:687): [1;33mWARNING[0m **: [34m23:23:24.365[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+[1]+  Done                    gedit main.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ gedit main.cc &ls[Kmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ now.o sorts.o main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main now.o sorts.o main.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ make -f ../Makefile[4Pgedit main.cc &[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./main insertionSort ../random.dat `seq 1000 1000 10000`
+n	time
+1000	1
+2000	5
+3000	12
+4000	20
+5000	34
+6000	48
+7000	63
+8000	80
+9000	100
+10000	124
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ ./main quickSort ../random.dat `seq 10000 10000 100000`
+n	time
+10000	2
+20000	2
+30000	4
+40000	5
+50000	7
+60000	7
+70000	9
+80000	11
+90000	11
+100000	13
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises/4-time[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises/4-time[00m$ cd ..
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9/exercises[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9/exercises[00m$ cd ..
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab9[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab9[00m$ cd ..
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit[00m$ git merge -m 'merged master' master
+Already up to date.
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit[00m$ git add submit/labN[K9[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K^C
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit[00m$ exit
+
+Script done on 2020-04-02 23:24:53-0400
