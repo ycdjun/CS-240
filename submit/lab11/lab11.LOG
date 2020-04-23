@@ -1,0 +1,530 @@
+Script started on 2020-04-23 16:34:32-0400
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit[00m$ cd lab11/
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ touch balanced.cc 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ e[Kgeddi[K[Kit  [Kbalanced.cc &
+[1] 77
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:77): [1;33mWARNING[0m **: [34m16:39:36.972[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &
+[1] 119
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:119): [1;33mWARNING[0m **: [34m16:56:18.964[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:119): [1;33mWARNING[0m **: [34m16:56:18.987[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:119): [1;33mWARNING[0m **: [34m17:02:01.918[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:119): [1;33mWARNING[0m **: [34m17:02:01.919[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:119): [1;33mWARNING[0m **: [34m17:02:05.447[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+^M[K
+[1]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &[1Ptouch balanced.cc [9Pcd lab11/~/i240b/submit/[K.../test-main make -f ../Makefile test-main[9Pgedit test-main.cc &[8P./test-main make -f ../Makefile test-main[9Pgedit test-main.cc &[8P./test-main make -f ../Makefile test-main[K[K[K[K[K[K[K[K[Kbalance.cc
+make: ../Makefile: No such file or directory
+make: *** No rule to make target '../Makefile'.  Stop.
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f ../Makefile balance.cc[K[K[K[K[K[K[K[K[K[K
+make: ../Makefile: No such file or directory
+make: *** No rule to make target '../Makefile'.  Stop.
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f ../Makefile balance.cc[11Pgedit balanced.cc &[1Ptouch balanced.cc [9Pcd lab11/~/i240b/submit/[K.../test-main make -f ../Makefile test-main[9Pgedit test-main.cc &make -f ../Makefile test-main[17P./test-main [7Pcd ..~/i240b/submit/[9Plab11/touch balanced.cc gedit balanced.cc &make -f ../Makefile balance.cc[K[Kmake
+make: *** No targets specified and no makefile found.  Stop.
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f ../Makefile balance.cc[Kbalance.cc[11Pgedit balanced.cc &[1Ptouch balanced.cc [9Pcd lab11/~/i240b/submit/[K.../test-main make -f ../Makefile test-main[9Pgedit test-main.cc &[8P./test-main make -f ../Makefile test-main[9Pgedit test-main.cc &[8P./test-main make -f ../Makefile test-main[9Pgedit digit-sum.cc &[8P./test-main make -f ../Makefile test-main[9Pgedit test-main.cc &[8P./test-main make -f ../Makefile test-main[9Pgedit test-main.cc &make -f ../Makefile test-main[9Pgedit digit-sum.cc &make -f ../Makefile test-mainls[Kcd 2-tdd/[4P.../test-main make -f ../Makefile test-main[14Pgedit fact.cc &make -f ../Makefile test-mainls[K./test-main make -f ../Makefile test-main[17P./test-main make -f ../Makefile test-main[17P./test-main ls[Kmake -f ../Makefile test-main[14Pgedit fact.cc &make -f ../Makefile test-main[17P./test-main [7Pcd ..2-tdd/ls[Kmake -f ../Makefile test-main[9Pgedit digit-sum.cc &make -f ../Makefile test-main[9Pgedit test-main.cc &make -f ../Makefile test-main[17P./test-main gedit test-main.cc &make -f ../Makefile test-main[17P./test-main gedit digit-sum.cc &make -f ../Makefile test-main[17P./test-main gedit test-main.cc &make -f ../Makefile test-main[17P./test-main make -f ../Makefile test-main[9Pgedit test-main.cc &[8P./test-main make -f ../Makefile test-main[9Pgedit digit-sum.cc &[8P./test-main make -f ../Makefile test-main[9Pgedit test-main.cc &[8P./test-main make -f ../Makefile test-main[9Pgedit test-main.cc &make -f ../Makefile test-main[9Pgedit digit-sum.cc &make -f ../Makefile test-mainls[Kcd 2-tdd/[4P.../test-main make -f ../Makefile test-main[14Pgedit fact.cc &make -f ../Makefile test-mainls[K./test-main make -f ../Makefile test-main[17P./test-main gedit fact.cc &[3P./test-main make -f ../Makefile test-main[9Pgedit test-main.cc &[12P./main 0test-main make -f ../Makefile test-mainls[K./test-mainmake -f ../Makefile main[9P./main 2 3 5 10make -f ../Makefile main[14Pcd 1-fact/ls[Kmake -f ../Makefile main[11Pcd exercises/make -f ../Makefile mainls[Kcd 1-fact/make -f ../Makefile main[9P./main 2 3 5 10make -f ../Makefile main[13P./test-mainls[Kmake -f ../Makefile test-main[17P./test-main [4Pmain 0gedit test-main.cc &make -f ../Makefile test-main[17P./test-main gedit fact.cc &[3P./test-main make -f ../Makefile test-main[17P./test-main ls[Kmake -f ../Makefile test-main[14Pgedit fact.cc &make -f ../Makefile test-main[17P./test-main [7Pcd ..2-tdd/ls[Kmake -f ../Makefile test-main[9Pgedit digit-sum.cc &make -f ../Makefile test-main[9Pgedit test-main.cc &make -f ../Makefile test-main[17P./test-main gedit test-main.cc &make -f ../Makefile test-main[17P./test-main gedit digit-sum.cc &make -f ../Makefile test-main[17P./test-main gedit test-main.cc &make -f ../Makefile test-main[17P./test-main gedit test-main.cc &make -f ../Makefile test-main[17P./test-main [7Pcd ..~/i240b/submit/[9Plab11/touch balanced.cc gedit balanced.cc &make -f ../Makefile balance.cc[K[K[Kmake -f ../Makefile balance
+make: ../Makefile: No such file or directory
+make: *** No rule to make target '../Makefile'.  Stop.
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ls
+balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ lsmake -f ../Makefile balance[Ke.cc
+make: ../Makefile: No such file or directory
+make: *** No rule to make target '../Makefile'.  Stop.
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f ../Makefile
+make: ../Makefile: No such file or directory
+make: *** No rule to make target '../Makefile'.  Stop.
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f ../Makefile[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat [K[K[K[Ktouch Makefile
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit m[KMakefile 
+
+** (gedit:140): [1;33mWARNING[0m **: [34m17:05:29.409[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:140): [1;33mWARNING[0m **: [34m17:05:29.420[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:140): [1;33mWARNING[0m **: [34m17:05:30.793[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit Makefile [1Ptouch Makefilemake -f ../Makefile[C[1PMakefile[1PMakefile[1PMakefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+[01m[Kbalanced.cc:37:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+ }
+  [01;31m[K^[m[K
+  [32m[K;[m[K
+[01m[Kbalanced.cc:[m[K In member function ‘[01m[Kvoid Stack::push(auto:1)[m[K’:
+[01m[Kbalanced.cc:16:60:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+     std::cerr<< "Cannot add to stack. Stack is full" << std[01;31m[K:[m[Kendl;
+                                                            [01;31m[K^[m[K
+[01m[Kbalanced.cc:18:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+    [01;31m[K}[m[K
+    [01;31m[K^[m[K
+[01m[Kbalanced.cc:[m[K In member function ‘[01m[Kint Stack::size()[m[K’:
+[01m[Kbalanced.cc:35:14:[m[K [01;31m[Kerror: [m[Knamed return values are no longer supported
+   int size() [01;31m[Kreturn[m[K stkInd+1;
+              [01;31m[K^~~~~~[m[K
+[01m[Kbalanced.cc:35:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ at end of input
+   int size() return stkInd+[01;31m[K1[m[K;
+                            [01;31m[K^[m[K
+[01m[Kbalanced.cc:35:28:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[01m[Kbalanced.cc:[m[K In function ‘[01m[Kint getDelim(int)[m[K’:
+[01m[Kbalanced.cc:57:40:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[KdelimEncodings[m[K’, which is of non-class type ‘[01m[KDelimMap [8][m[K’
+     for(auto i = 0; i < delimEncodings.[01;31m[Ksize[m[K(); i++){
+                                        [01;31m[K^~~~[m[K
+[01m[Kbalanced.cc:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[Kbalanced.cc:73:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[Kargv[m[K’ will return size of ‘[01m[Kconst char**[m[K’ [[01;35m[K-Wsizeof-array-argument[m[K]
+         for(std::size_t i = 1; i < sizeof(argv[01;35m[K)[m[K/sizeof(argv[0]); i++){
+                                               [01;35m[K^[m[K
+[01m[Kbalanced.cc:66:38:[m[K [01;36m[Knote: [m[Kdeclared here
+ int main(int argc, const char * argv[[01;36m[K][m[K){
+                                      [01;36m[K^[m[K
+Makefile:48: recipe for target 'balanced.o' failed
+make: *** [balanced.o] Error 1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefile[1Pgedit Makefile [1Ptouch Makefilemake -f ../Makefile balance.ccls[Kmake -f ../Makefile balance[K -f ../Makefile balance.cc[11Pgedit balanced.cc &[1Ptouch balanced.cc [9Pcd lab11/touch balanced.cc gedit balanced.cc &[1Ptouch balanced.cc [9Pcd lab11/~/i240b/submit/[9Plab11/touch balanced.cc gedit balanced.cc &
+[1] 151
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:151): [1;33mWARNING[0m **: [34m17:07:47.134[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:151): [1;33mWARNING[0m **: [34m17:07:47.134[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+[1]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &[3Pmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+[01m[Kbalanced.cc:[m[K In member function ‘[01m[Kvoid Stack::push(auto:1)[m[K’:
+[01m[Kbalanced.cc:16:60:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+     std::cerr<< "Cannot add to stack. Stack is full" << std[01;31m[K:[m[Kendl;
+                                                            [01;31m[K^[m[K
+[01m[Kbalanced.cc:18:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+    [01;31m[K}[m[K
+    [01;31m[K^[m[K
+[01m[Kbalanced.cc:[m[K In function ‘[01m[Kint getDelim(int)[m[K’:
+[01m[Kbalanced.cc:58:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(auto i = 0; [01;35m[Ki < std::size(delimEncodings)[m[K; i++){
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kbalanced.cc:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[Kbalanced.cc:74:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksize(const char**&)[m[K’
+         for(std::size_t i = 1; std::size(argv[01;31m[K)[m[K; i++){
+                                              [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:51:0[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/istream:38[m[K,
+                 from [01m[K/usr/include/c++/7/fstream:38[m[K,
+                 from [01m[Kbalanced.cc:1[m[K:
+[01m[K/usr/include/c++/7/bits/range_access.h:242:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Container> constexpr decltype (__cont.size()) std::size(const _Container&)
+     [01;36m[Ksize[m[K(const _Container& __cont) noexcept(noexcept(__cont.size()))
+     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/range_access.h:242:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/usr/include/c++/7/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> constexpr decltype (__cont.size()) std::size(const _Container&) [with _Container = const char**][m[K’:
+[01m[Kbalanced.cc:74:46:[m[K   required from here
+[01m[K/usr/include/c++/7/bits/range_access.h:243:24:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[K__cont[m[K’, which is of non-class type ‘[01m[Kconst char** const[m[K’
+     -> decltype([01;31m[K__cont.size[m[K())
+                 [01;31m[K~~~~~~~^~~~[m[K
+[01m[K/usr/include/c++/7/bits/range_access.h:252:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, long unsigned int _Nm> constexpr std::size_t std::size(const _Tp (&)[_Nm])
+     [01;36m[Ksize[m[K(const _Tp (&/*__array*/)[_Nm]) noexcept
+     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/range_access.h:252:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[Kbalanced.cc:74:46:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _Tp [_Nm][m[K’ and ‘[01m[Kconst char**[m[K’
+         for(std::size_t i = 1; std::size(argv[01;36m[K)[m[K; i++){
+                                              [01;36m[K^[m[K
+Makefile:48: recipe for target 'balanced.o' failed
+make: *** [balanced.o] Error 1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefilegedit balanced.cc &
+[1] 162
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:162): [1;33mWARNING[0m **: [34m17:10:06.108[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:162): [1;33mWARNING[0m **: [34m17:10:06.108[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &[3Pmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+[01m[Kbalanced.cc:[m[K In function ‘[01m[Kint getDelim(int)[m[K’:
+[01m[Kbalanced.cc:58:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(auto i = 0; [01;35m[Ki < std::size(delimEncodings)[m[K; i++){
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+g++ balanced.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main balanced.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./b[K[K[Kls
+Makefile  balanced.cc  balanced.o  [0m[01;32mmain[0m
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '[' '[' ']' ']' ')'
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ '(' '[' '[' ']' ']' ']'.[K[1@.[1@m[1P[1P[1@/[1@m[1@a[1@i[1@n[1@ 
+bash: /main: No such file or directory
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ /main '(' '[' '[' ']' ']' ']'[C[1@.
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '[' '[' ']' ']' ']'[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./main '(' '[' '[' ']' ']' ')'ls[Kmake -f Makefilegedit balanced.cc &
+[2] 185
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:162): [1;33mWARNING[0m **: [34m17:11:38.242[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+** (gedit:162): [1;33mWARNING[0m **: [34m17:13:34.039[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:162): [1;33mWARNING[0m **: [34m17:13:34.041[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:162): [1;33mWARNING[0m **: [34m17:13:37.417[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]-  Done                    gedit balanced.cc
+[2]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &./main '(' '[' '[' ']' ']' ']'[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./main '(' '[' '[' ']' ']' ')'ls[Kmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+[01m[Kbalanced.cc:[m[K In function ‘[01m[Kint getDelim(int)[m[K’:
+[01m[Kbalanced.cc:58:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(auto i = 0; [01;35m[Ki < std::size(delimEncodings)[m[K; i++){
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+g++ balanced.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main balanced.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefilegedit balanced.cc &./main '(' '[' '[' ']' ']' ']'
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '[' '[' ']' ']' ']'[14Pmake -f Makefile./main '(' '[' '[' ']' ']' ']'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho $?
+1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ echo $?./main '(' '[' '[' ']' ']' ']'[14Pmake -f Makefile./main '(' '[' '[' ']' ']' ']'[14Pmake -f Makefilegedit balanced.cc &./main '(' '[' '[' ']' ']' ']'[11Pgedit balanced.cc &
+[1] 205
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:205): [1;33mWARNING[0m **: [34m17:15:41.853[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:205): [1;33mWARNING[0m **: [34m17:15:41.853[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:205): [1;33mWARNING[0m **: [34m17:15:43.020[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &[12Pecho $?./main '(' '[' '[' ']' ']' ']'[14Pmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+[01m[Kbalanced.cc:[m[K In function ‘[01m[Kint getDelim(int)[m[K’:
+[01m[Kbalanced.cc:58:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(auto i = 0; [01;35m[Ki < std::size(delimEncodings)[m[K; i++){
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+g++ balanced.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main balanced.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefilegedit balanced.cc &[12Pecho $?./main '(' '[' '[' ']' ']' ']'[14Pmake -f Makefile./main '(' '[' '[' ']' ']' ']'
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./balanced '(' '[' '[' ']' ']' ')'[1P[1P[1P[1P[1P[1P[1P[1P[1@m[1@a[1@i[1@n
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ echo $1
+
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ echo $1[K?
+0
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '<' '[' '{' '}' ']' '>' ')'
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ echo $1
+
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ echo $1[K?
+0
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./balanced '(' '@' ')'[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1@m[1@a[1@i[1@n
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gf[K[Kgedit m[K[K[K[K[K[K[K./main '(' '@' ')'[11Pecho $?1./main '(' '<' '[' '{' '}' ']' '>' ')'echo $?[K1./main '(' '[' '[' ']' ']' ')']'[14Pmake -f Makefilegedit balanced.cc &[12Pecho $?gedit balanced.cc &
+[1] 228
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:228): [1;33mWARNING[0m **: [34m17:33:13.037[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:228): [1;33mWARNING[0m **: [34m17:33:13.037[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:228): [1;33mWARNING[0m **: [34m17:33:16.425[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &[1P./main '(' '@' ')'[11Pecho $?1./main '(' '<' '[' '{' '}' ']' '>' ')'echo $?[K1./main '(' '[' '[' ']' ']' ')']'[14Pmake -f Makefilegedit balanced.cc &[3Pmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+[01m[Kbalanced.cc:[m[K In function ‘[01m[Kint getDelim(int)[m[K’:
+[01m[Kbalanced.cc:59:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(auto i = 0; [01;35m[Ki < std::size(delimEncodings)[m[K; i++){
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+g++ balanced.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main balanced.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefilegedit balanced.cc &[1P./main '(' '@' ')'
+Input delimiter ./main not of length 1 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '@' ')'[2Pmake -f Makefilegedit balanced.cc &[1P./main '(' '@' ')'[11Pecho $?1./main '(' '<' '[' '{' '}' ']' '>' ')'
+Input delimiter ./main not of length 1 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '<' '[' '{' '}' ']' '>' ')'@' ')'[K[2Pmake -f Makefilegedit balanced.cc &
+[1] 249
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:249): [1;33mWARNING[0m **: [34m17:34:25.793[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:249): [1;33mWARNING[0m **: [34m17:34:25.794[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:249): [1;33mWARNING[0m **: [34m17:34:26.878[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &./main '(' '<' '[' '{' '}' ']' '>' ')'@' ')'[K[2Pmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+[01m[Kbalanced.cc:[m[K In function ‘[01m[Kint getDelim(int)[m[K’:
+[01m[Kbalanced.cc:59:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(auto i = 0; [01;35m[Ki < std::size(delimEncodings)[m[K; i++){
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+g++ balanced.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main balanced.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefilegedit balanced.cc &./main '(' '<' '[' '{' '}' ']' '>' ')'
+Segmentation fault (core dumped)
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefilegedit balanced.cc &./main '(' '<' '[' '{' '}' ']' '>' ')'@' ')'[K
+Segmentation fault (core dumped)
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '@' ')'[20@<' '[' '{' '}' ']' '>[C[C[C[C[C[22Pmake -f Makefilegedit balanced.cc &[3Pmake -f Makefilegedit balanced.cc &
+[1] 270
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:270): [1;33mWARNING[0m **: [34m17:35:31.858[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:270): [1;33mWARNING[0m **: [34m17:35:31.859[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+[1]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &[1P./main '(' '@' ')'[20@<' '[' '{' '}' ']' '>[C[C[C[C[C[22Pmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+[01m[Kbalanced.cc:[m[K In function ‘[01m[Kint getDelim(int)[m[K’:
+[01m[Kbalanced.cc:59:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(auto i = 0; [01;35m[Ki < std::size(delimEncodings)[m[K; i++){
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kbalanced.cc:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[Kbalanced.cc:79:30:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+   int delim = getDelim([01;31m[Kargv[i][m[K);
+                        [01;31m[K~~~~~~^[m[K
+[01m[Kbalanced.cc:46:5:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint getDelim(int)[m[K’
+ int [01;36m[KgetDelim[m[K(int c){
+     [01;36m[K^~~~~~~~[m[K
+Makefile:48: recipe for target 'balanced.o' failed
+make: *** [balanced.o] Error 1
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefilegedit balanced.cc &
+[1] 281
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:281): [1;33mWARNING[0m **: [34m17:35:55.692[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:281): [1;33mWARNING[0m **: [34m17:35:55.693[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:281): [1;33mWARNING[0m **: [34m17:35:57.109[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &[3Pmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+[01m[Kbalanced.cc:[m[K In function ‘[01m[Kint getDelim(int)[m[K’:
+[01m[Kbalanced.cc:59:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(auto i = 0; [01;35m[Ki < std::size(delimEncodings)[m[K; i++){
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+g++ balanced.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main balanced.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefilegedit balanced.cc &[3Pmake -f Makefile
+make: Nothing to be done for 'all'.
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefilegedit balanced.cc &[3Pmake -f Makefilegedit balanced.cc &[1P./main '(' '@' ')'
+Segmentation fault (core dumped)
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '@' ')'[2Pmake -f Makefilegedit balanced.cc &[3Pmake -f Makefilegedit balanced.cc &[1P./main '(' '@' ')'[20@<' '[' '{' '}' ']' '>[C[C[C[C[C
+\Segmentation fault (core dumped)
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ \[K./main '(' '<' '[' '{' '}' ']' '>' ')'@' ')'[K[2Pmake -f Makefile
+make: Nothing to be done for 'all'.
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefile./main '(' '<' '[' '{' '}' ']' '>' ')'@' ')'[K[2Pmake -f Makefilegedit balanced.cc &
+[1] 303
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:303): [1;33mWARNING[0m **: [34m17:37:40.233[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:303): [1;33mWARNING[0m **: [34m17:37:40.233[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:303): [1;33mWARNING[0m **: [34m17:37:41.979[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
++
++: command not found
+[1]+  Done                    gedit balanced.cc
+[1]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ +gedit balanced.cc &[3Pmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+g++ balanced.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main balanced.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefile+[Kgedit balanced.cc &[3Pmake -f Makefile./main '(' '<' '[' '{' '}' ']' '>' ')'
+Segmentation fault (core dumped)
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefile+[Kmake -f Makefile./main '(' '<' '[' '{' '}' ']' '>' ')'[K./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefile+[Kgedit balanced.cc &
+[1] 332
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:332): [1;33mWARNING[0m **: [34m17:38:39.282[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:332): [1;33mWARNING[0m **: [34m17:38:39.283[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:332): [1;33mWARNING[0m **: [34m17:38:40.265[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+g++ balanced.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main balanced.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefilegedit balanced.cc &./main '(' '<' '[' '{' '}' ']' '>' ')'
+Segmentation fault (core dumped)
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefile[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvalgrind [K[K[K[K[K[K[K[K[Kvalgrind [K[K[K[K[K[K[K[K[Kgdb 
+GNU gdb (Ubuntu 8.1-0ubuntu3) 8.1.0.20180409-git
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+(gdb) r 7[K
+Starting program:  
+No executable file specified.
+Use the "file" or "exec-file" command.
+(gdb) r main 
+Starting program:  main
+No executable file specified.
+Use the "file" or "exec-file" command.
+(gdb) ./main [K[K[K[K[K[K[K./main '(' '<' '[' '{' '}' ']' '>' ')'
+Undefined command: "".  Try "help".
+(gdb) ./main '(' '<' '[' '{' '}' ']' '>' ')'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kquit
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ geb[K[Kdb main 
+GNU gdb (Ubuntu 8.1-0ubuntu3) 8.1.0.20180409-git
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from main...done.
+(gdb) ./main '(' '<' '[' '{' '}' ']' '>' ')'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./main '(' '<' '[' '{' '}' ']' '>' ')'[C[C[C[1P[1P[1P[1P[1P[1P[1P
+Undefined command: "".  Try "help".
+(gdb) quit
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gdb main [K./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefilegedit balanced.cc &
+[1] 361
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:361): [1;33mWARNING[0m **: [34m17:41:11.948[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:361): [1;33mWARNING[0m **: [34m17:41:11.949[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:361): [1;33mWARNING[0m **: [34m17:41:16.331[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &[10Pdb main [K./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+g++ balanced.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main balanced.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefilegedit balanced.cc &[10Pdb main [K./main '(' '<' '[' '{' '}' ']' '>' ')'
+Unbalanced delimiter at argument 5
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ [K]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '<' '[' '{' '}' ']' '>' ')'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K '(' '<' '[' '{' '}' ']' '>' ')'
+Unbalanced delimiter at argument 5
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefilegedit balanced.cc &
+[1] 382
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:382): [1;33mWARNING[0m **: [34m17:44:04.068[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:382): [1;33mWARNING[0m **: [34m17:44:04.068[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+g++ balanced.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main balanced.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefilegedit balanced.cc &./main '(' '<' '[' '{' '}' ']' '>' ')'
+Unbalanced final stack of delimiters
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:382): [1;33mWARNING[0m **: [34m17:44:26.111[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:382): [1;33mWARNING[0m **: [34m17:44:26.112[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+[1]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+^[[Ag++ balanced.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main balanced.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefile./main '(' '<' '[' '{' '}' ']' '>' ')'
+Unbalanced final stack of delimiters
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefile./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefilegedit balanced.cc &
+[1] 415
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:415): [1;33mWARNING[0m **: [34m17:45:58.027[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:415): [1;33mWARNING[0m **: [34m17:45:58.029[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:415): [1;33mWARNING[0m **: [34m17:45:59.994[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+g++ balanced.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main balanced.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefilegedit balanced.cc &./main '(' '<' '[' '{' '}' ']' '>' ')'
+Unbalanced final stack of delimiters
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefilegedit balanced.cc &
+[1] 435
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:435): [1;33mWARNING[0m **: [34m17:46:43.417[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:435): [1;33mWARNING[0m **: [34m17:46:43.417[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+[1]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+g++ balanced.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main balanced.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefilegedit balanced.cc &./main '(' '<' '[' '{' '}' ']' '>' ')'
+Unbalanced delimiter at argument 5
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefile
+make: Nothing to be done for 'all'.
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefile./main '(' '<' '[' '{' '}' ']' '>' ')'
+Unbalanced delimiter at argument 5
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefile./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefilegedit balanced.cc &
+[1] 457
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:457): [1;33mWARNING[0m **: [34m17:47:56.304[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:457): [1;33mWARNING[0m **: [34m17:47:56.305[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:457): [1;33mWARNING[0m **: [34m17:47:57.543[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+[1]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+g++ balanced.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main balanced.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefilegedit balanced.cc &./main '(' '<' '[' '{' '}' ']' '>' ')'
+Unbalanced delimiter at argument 5
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefilegedit balanced.cc &
+[1] 477
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ 
+** (gedit:477): [1;33mWARNING[0m **: [34m17:48:46.691[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:477): [1;33mWARNING[0m **: [34m17:48:46.691[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+[1]+  Done                    gedit balanced.cc
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ gedit balanced.cc &./main '(' '<' '[' '{' '}' ']' '>' ')'[22Pmake -f Makefile
+g++ -MT balanced.o -MMD -MP -MF .deps/balanced.d -g -Wall -std=c++17 -c balanced.cc
+g++ balanced.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main balanced.o; do echo $t >>.gitignore; done
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ make -f Makefilegedit balanced.cc &./main '(' '<' '[' '{' '}' ']' '>' ')'
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ echo $1[K?
+0
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main '(' '<' '[' '{' '}' ']' '>'
+Unbalanced final stack of delimiters
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main ./balanced '(' '@' ')'
+Input delimiter ./balanced not of length 1 
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ ./main ./balanced '(' '@' ')'[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@n[1@ 
+Invalid delimeter @ at argument 2
+]0;ycdjun@DESKTOP-23I9KR1: ~/i240b/submit/lab11[01;32mycdjun@DESKTOP-23I9KR1[00m:[01;34m~/i240b/submit/lab11[00m$ exit
+
+Script done on 2020-04-23 17:50:00-0400
