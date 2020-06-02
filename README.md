@@ -1,1 +1,1 @@
-# i240b
+CS240: Data Structures and Algorithms
